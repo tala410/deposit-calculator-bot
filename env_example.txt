@@ -1,0 +1,7 @@
+# Токен вашего Telegram бота
+# Получите у @BotFather в Telegram
+BOT_TOKEN=your_bot_token_here
+
+# Дополнительные настройки (опционально)
+DEBUG=false
+LOG_LEVEL=INFO 

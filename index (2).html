@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Калькулятор</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      background: #fff;
+      color: #000;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .wrapper {
+      padding: 16px;
+      max-width: 420px;
+      margin: auto;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 24px;
+      position: relative;
+    }
+    .header .back-btn {
+      font-size: 24px;
+      text-decoration: none;
+      color: #000;
+      position: absolute;
+      left: 0;
+    }
+    .header h2 {
+      font-size: 17px;
+      font-weight: 600;
+      margin: 0;
+      text-align: center;
+      flex-grow: 1;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .field-card {
+      background: #f2f2f7;
+      border-radius: 12px;
+      padding: 12px;
+    }
+    .field-card label {
+      font-size: 13px;
+      color: #8e8e93;
+      margin-bottom: 4px;
+      display: block;
+    }
+    .field-card input,
+    .field-card select {
+      width: 100%;
+      border: none;
+      background: transparent;
+      color: #000;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 0;
+      appearance: none; -webkit-appearance: none;
+    }
+    .field-card input[type="date"] {
+      min-height: 20px;
+    }
+    .info-banner {
+      background: #e7f3ff;
+      color: #00529b;
+      border-radius: 12px;
+      padding: 12px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+    }
+    .info-banner .icon {
+      margin-right: 8px;
+      font-weight: bold;
+      background: #00529b;
+      color: #fff;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-style: normal;
+    }
+    .deposits-section {
+      margin-bottom: 20px;
+    }
+    .deposit-row-placeholder {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .deposit-row-placeholder .placeholder {
+      background: #f2f2f7;
+      border-radius: 12px;
+      padding: 16px 12px;
+      font-size: 16px;
+      color: #8e8e93;
+    }
+    .deposits-list .deposit-row {
+       display: grid;
+      grid-template-columns: 1fr 1fr 40px;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+     .deposits-list .deposit-row input {
+      background: #f2f2f7;
+      border-radius: 12px;
+      padding: 16px 12px;
+      font-size: 16px;
+      color: #000;
+      border: none;
+      width: 100%;
+      box-sizing: border-box;
+    }
+     .deposits-list .deposit-row button {
+      background: #f2f2f7;
+      border-radius: 50%;
+      color: #8e8e93;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      width: 40px;
+      height: 40px;
+      align-self: center;
+    }
+    .btn-add-more {
+      width: 100%;
+      background: #e9e9eb;
+      color: #000;
+      border: none;
+      border-radius: 12px;
+      padding: 14px;
+      font-size: 16px;
+      font-weight: 500;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+    .capitalization-field {
+      display: flex;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+    .capitalization-field input[type="checkbox"] {
+      width: 22px;
+      height: 22px;
+      margin-right: 12px;
+      accent-color: #30d158;
+    }
+    .results {
+      background: #f2f2f7;
+      border-radius: 16px;
+      padding: 16px;
+      margin-bottom: 24px;
+    }
+    .results h3 {
+      margin: 0 0 16px;
+      font-size: 17px;
+      font-weight: 600;
+    }
+    .result-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+    .result-item span {
+      color: #8e8e93;
+    }
+     .result-item strong {
+      font-weight: 500;
+    }
+    #monthly-details-container + .result-item {
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid #e5e5ea;
+    }
+    .btn-calculate {
+      width: 100%;
+      background: #30d158;
+      color: #fff;
+      border: none;
+      border-radius: 12px;
+      padding: 16px;
+      font-size: 17px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .disclaimer {
+      font-size: 12px;
+      color: #8e8e93;
+      text-align: center;
+      margin-top: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <a href="#" class="back-btn">&lt;</a>
+      <h2>Калькулятор</h2>
+    </div>
+
+    <div class="grid">
+      <div class="field-card">
+        <label for="currencyAdv">Валюта</label>
+        <select id="currencyAdv">
+          <option value="KGS">сом</option>
+          <option value="USD">доллар</option>
+          <option value="EUR">евро</option>
+        </select>
+      </div>
+      <div class="field-card">
+        <label for="startDateAdv">Дата открытия</label>
+        <input type="date" id="startDateAdv" />
+      </div>
+      <div class="field-card">
+        <label for="termAdv">Срок депозита</label>
+        <select id="termAdv">
+          <option value="3">3 мес | 6.00%</option>
+          <option value="6">6 мес | 10.00%</option>
+          <option value="12" selected>12 мес | 14.50%</option>
+          <option value="24">24 мес | 14.50%</option>
+          <option value="36">36 мес | 13%</option>
+        </select>
+      </div>
+      <div class="field-card">
+        <label for="initialAmountAdv">Начальная сумма</label>
+        <input type="number" id="initialAmountAdv" value="10000" placeholder="10 000" />
+      </div>
+    </div>
+
+    <div class="info-banner">
+      <i class="icon">i</i>
+      <span>Рассчитайте вклады и получите прогноз</span>
+    </div>
+
+    <div class="deposits-section">
+      <div class="deposits-list" id="depositsList"></div>
+      <button type="button" class="btn-add-more" onclick="addDepositRow()">Добавить пополнение</button>
+    </div>
+
+    <div class="capitalization-field">
+      <input type="checkbox" id="capitalization">
+      <label for="capitalization">Капитализация процентов</label>
+    </div>
+
+    <div class="results">
+      <h3>Детализация по периодам</h3>
+      <div id="monthly-details-container"></div>
+      <div class="result-item">
+        <span>Накопленные проценты</span>
+        <strong id="interestAdv">—</strong>
+      </div>
+      <div class="result-item">
+        <span>Сумма в конце срока</span>
+        <strong id="totalAdv">—</strong>
+      </div>
+    </div>
+
+    <button class="btn-calculate" onclick="calculateAdvanced()">Рассчитать</button>
+
+    <div class="disclaimer">
+      Расчеты являются предварительными и не являются публичной офертой. Фактические начисления могут отличаться.
+    </div>
+
+    <div id="advancedTable" style="display: none;"></div>
+    <div id="dailyCheckTable" style="display: none;"></div>
+    <div id="monthlyTable" style="display: none;"></div>
+  </div>
+
+  <script>
+    const rates = {
+      KGS: { 3: 6.0, 6: 10.0, 12: 16.5, 24: 16.5, 36: 13.0 },
+      USD: { 3: 2.0, 6: 2.5, 12: 4.0, 24: 4.0, 36: 3.0 },
+      EUR: { 3: 0.6, 6: 1.2, 12: 1.5, 24: 1.3, 36: 1.0 }
+    };
+
+    function updateRates() {
+      const currency = document.getElementById('currencyAdv').value;
+      const termSelect = document.getElementById('termAdv');
+      const options = termSelect.options;
+      
+      for (let i = 0; i < options.length; i++) {
+        const term = options[i].value;
+        if (rates[currency] && rates[currency][term]) {
+            const rate = rates[currency][term];
+            options[i].innerHTML = `${term} мес | ${rate.toFixed(2)}%`;
+        }
+      }
+    }
+    document.getElementById('currencyAdv').addEventListener('change', updateRates);
+
+    function addDepositRow(date = '', amount = '') {
+      const list = document.getElementById('depositsList');
+      const row = document.createElement('div');
+      row.className = 'deposit-row';
+      row.innerHTML = `<input type="date" value="${date}"/><input type="number" value="${amount}" placeholder="Сумма"/><button type="button" onclick="this.parentNode.remove()">✕</button>`;
+      list.appendChild(row);
+    }
+    
+    function calculateAdvanced() {
+        const currency = document.getElementById('currencyAdv').value;
+        const term = parseInt(document.getElementById('termAdv').value);
+        let rate = rates[currency][term];
+        const startDateStr = document.getElementById('startDateAdv').value;
+        const capitalization = document.getElementById('capitalization').checked;
+
+        if (!startDateStr) {
+            alert('Пожалуйста, укажите дату открытия вклада.');
+            return;
+        }
+
+        const startDate = new Date(startDateStr);
+        const openDay = startDate.getDate();
+
+        const endDate = new Date(startDate);
+        endDate.setMonth(endDate.getMonth() + term);
+        endDate.setDate(endDate.getDate() - 1);
+        
+        let deposits = [];
+        const rows = document.getElementById('depositsList').children;
+        for (let row of rows) {
+            const date = row.querySelector('input[type="date"]').value;
+            const amount = parseFloat(row.querySelector('input[type="number"]').value);
+            if (date && !isNaN(amount) && amount > 0) {
+                deposits.push({ date: new Date(date), amount: amount });
+            }
+        }
+
+        const initialAmount = parseFloat(document.getElementById('initialAmountAdv').value) || 0;
+        if (initialAmount > 0) {
+            deposits.push({ date: new Date(startDate), amount: initialAmount, isInitial: true });
+        }
+        
+        deposits.sort((a, b) => a.date - b.date);
+
+        let totalInterest = 0;
+        let totalPrincipal = 0;
+        let day = new Date(startDate);
+        let balance = 0;
+
+        deposits.forEach(dep => totalPrincipal += dep.amount);
+
+        let interestBearingBalance = 0;
+        let depositIndex = 0;
+        const monthlyInterests = {};
+        let accumulatedInterest = 0;
+
+        while(day <= endDate) {
+            
+            let dailyInterest = 0;
+            if (!isSameDay(day, startDate)) {
+                 dailyInterest = (interestBearingBalance * rate) / (360 * 100);
+            }
+
+            let effectiveInterest = dailyInterest;
+            if (day.getDate() === 31) {
+                effectiveInterest = 0;
+            }
+
+            totalInterest += effectiveInterest;
+            accumulatedInterest += effectiveInterest;
+
+            const monthKey = `${day.getFullYear()}-${day.getMonth()}`;
+            if (!monthlyInterests[monthKey]) {
+                monthlyInterests[monthKey] = 0;
+            }
+            monthlyInterests[monthKey] += effectiveInterest;
+            
+            const daysInFebruary = new Date(day.getFullYear(), 1, 29).getMonth() === 1 ? 29 : 28;
+            if (day.getMonth() === 1 && day.getDate() === daysInFebruary) {
+                const extraDays = 30 - daysInFebruary;
+                if (extraDays > 0) {
+                    const extraInterest = extraDays * ((interestBearingBalance * rate) / (360 * 100));
+                    totalInterest += extraInterest;
+                    accumulatedInterest += extraInterest;
+                    monthlyInterests[monthKey] += extraInterest;
+                }
+            }
+
+            if (capitalization) {
+                const lastDayOfMonth = new Date(day.getFullYear(), day.getMonth() + 1, 0).getDate();
+                let isCapitalizationDay = (day.getDate() === openDay) || (openDay > lastDayOfMonth && day.getDate() === lastDayOfMonth);
+
+                if (isCapitalizationDay && !isSameDay(day, startDate)) {
+                    interestBearingBalance += accumulatedInterest;
+                    accumulatedInterest = 0;
+                }
+            }
+
+            while(depositIndex < deposits.length && isSameDay(deposits[depositIndex].date, day)) {
+                interestBearingBalance += deposits[depositIndex].amount;
+                depositIndex++;
+            }
+            
+            day.setDate(day.getDate() + 1);
+        }
+        
+        const totalAmount = capitalization ? interestBearingBalance + accumulatedInterest : totalPrincipal + totalInterest;
+        document.getElementById('interestAdv').innerHTML = `${formatNum(totalInterest)} ${currencySymbol(currency)}`;
+        document.getElementById('totalAdv').innerHTML = `${formatNum(totalAmount)} ${currencySymbol(currency)}`;
+
+        // Render monthly breakdown
+        const monthlyContainer = document.getElementById('monthly-details-container');
+        monthlyContainer.innerHTML = '';
+        const monthNames = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+
+        Object.keys(monthlyInterests).sort((a, b) => {
+            const [yearA, monthA] = a.split('-').map(Number);
+            const [yearB, monthB] = b.split('-').map(Number);
+            return yearA - yearB || monthA - monthB;
+        }).forEach(key => {
+            const [year, monthIndex] = key.split('-');
+            const monthName = monthNames[parseInt(monthIndex)];
+            const interest = monthlyInterests[key];
+            
+            if (interest > 0) {
+                const item = document.createElement('div');
+                item.className = 'result-item';
+                item.innerHTML = `<span>Начислено за ${monthName.toLowerCase()} ${year} г.</span><strong>${formatNum(interest)} ${currencySymbol(currency)}</strong>`;
+                monthlyContainer.appendChild(item);
+            }
+        });
+    }
+
+    function formatNum(num) {
+      if (typeof num !== 'number') return '—';
+      return num.toLocaleString('ru-RU', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).replace(/,(\d\d)$/, '.<span class="cents">$1</span>');
+    }
+
+    function currencySymbol(cur) {
+      if (cur === 'KGS') return '<span style="text-decoration:underline;">с</span>';
+      if (cur === 'USD') return '$';
+      if (cur === 'EUR') return '€';
+      return cur;
+    }
+
+    function isSameDay(d1, d2) {
+      return d1.getFullYear() === d2.getFullYear() &&
+             d1.getMonth() === d2.getMonth() &&
+             d1.getDate() === d2.getDate();
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const today = new Date();
+      const yyyy = today.getFullYear();
+      const mm = String(today.getMonth() + 1).padStart(2, '0');
+      const dd = String(today.getDate()).padStart(2, '0');
+      document.getElementById('startDateAdv').value = `${yyyy}-${mm}-${dd}`;
+      updateRates();
+    });
+  </script>
+</body>
+</html> 

@@ -1,0 +1,3584 @@
+Date: Mon, 23 Jun 2025 17:25:14 +0600 (KGT)
+Message-ID: <1521868216.338.1750677914599@dc-confluence.devcats.kg>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_337_1408615110.1750677914598"
+
+------=_Part_337_1408615110.1750677914598
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>API - =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>API - =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B</h1>
+    <div class=3D"Section1">
+        <p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1750677914551 {padding: 0px;}
+div.rbtoc1750677914551 ul {margin-left: 0px;}
+div.rbtoc1750677914551 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1750677914551">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-1.=D0=
+=9F=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D0=B5=D1=81=D0=BF=D0=B8=D1=81=
+=D0=BA=D0=B0=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=BE=D0=B2">1. =D0=
+=9F=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D1=81=D0=BF=D0=B8=D1=
+=81=D0=BA=D0=B0 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=BE=D0=B2</a><=
+/li>
+<li><a href=3D"#API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-2.=D0=
+=92=D1=8B=D0=BF=D0=B8=D1=81=D0=BA=D0=B0=D0=BF=D0=BE=D0=B4=D0=B5=D0=BF=D0=BE=
+=D0=B7=D0=B8=D1=82=D1=83=D1=81=D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=
+=BE=D0=BD=D0=BD=D1=8B=D0=BC=D0=B8=D0=B4=D0=BD=D1=8F=D0=BC=D0=B8">2. =D0=92=
+=D1=8B=D0=BF=D0=B8=D1=81=D0=BA=D0=B0 =D0=BF=D0=BE =D0=B4=D0=B5=D0=BF=D0=BE=
+=D0=B7=D0=B8=D1=82=D1=83 =D1=81 =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=
+=D0=BE=D0=BD=D0=BD=D1=8B=D0=BC=D0=B8 =D0=B4=D0=BD=D1=8F=D0=BC=D0=B8</a></li=
+>
+<li><a href=3D"#API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-3.=D0=
+=92=D1=8B=D0=BF=D0=B8=D1=81=D0=BA=D0=B0=D0=BF=D0=BE=D0=B4=D0=B5=D0=BF=D0=BE=
+=D0=B7=D0=B8=D1=82=D1=83">3. =D0=92=D1=8B=D0=BF=D0=B8=D1=81=D0=BA=D0=B0 =D0=
+=BF=D0=BE =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=83</a></li>
+<li><a href=3D"#API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-4.=D0=
+=A1=D0=BF=D0=B8=D1=81=D0=BE=D0=BA=D0=BF=D1=80=D0=BE=D0=B4=D1=83=D0=BA=D1=82=
+=D0=BE=D0=B2=D0=BF=D0=BE=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=83(=
+=D0=B4=D0=BB=D1=8F=D0=B2=D0=B8=D1=82=D1=80=D0=B8=D0=BD=D1=8B)">4. =D0=A1=D0=
+=BF=D0=B8=D1=81=D0=BE=D0=BA =D0=BF=D1=80=D0=BE=D0=B4=D1=83=D0=BA=D1=82=D0=
+=BE=D0=B2 =D0=BF=D0=BE =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=83(=D0=
+=B4=D0=BB=D1=8F =D0=B2=D0=B8=D1=82=D1=80=D0=B8=D0=BD=D1=8B)</a></li>
+<li><a href=3D"#API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-5.=D0=
+=9E=D1=82=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=B5=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=
+=D0=B8=D1=82=D0=B0">5. =D0=9E=D1=82=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=B5 =D0=
+=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</a></li>
+<li><a href=3D"#API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-6.=D0=
+=9F=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5=D0=B4=D0=B5=D0=BF=
+=D0=BE=D0=B7=D0=B8=D1=82=D0=B0">6. =D0=9F=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=
+=B5=D0=BD=D0=B8=D0=B5 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</a><=
+/li>
+<li><a href=3D"#API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-7.=D0=
+=97=D0=B0=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=B5=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=
+=D0=B8=D1=82=D0=B0">7. =D0=97=D0=B0=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=B5 =D0=
+=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</a></li>
+<li><a href=3D"#API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-8.=D0=
+=A7=D0=B0=D1=81=D1=82=D0=B8=D1=87=D0=BD=D0=BE=D0=B5=D1=81=D0=BD=D1=8F=D1=82=
+=D0=B8=D0=B5=D1=81=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0">8. =D0=
+=A7=D0=B0=D1=81=D1=82=D0=B8=D1=87=D0=BD=D0=BE=D0=B5 =D1=81=D0=BD=D1=8F=D1=
+=82=D0=B8=D0=B5 =D1=81 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</a>=
+</li>
+<li><a href=3D"#API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-9.=D0=
+=A3=D0=B2=D0=B5=D0=B4=D0=BE=D0=BC=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F=D0=BF=D0=BE=
+=D0=BE=D0=B1=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F=D0=BC=D0=B4=D0=
+=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0">9. =D0=A3=D0=B2=D0=B5=D0=B4=D0=BE=
+=D0=BC=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D0=BF=D0=BE =D0=BE=D0=B1=D0=BD=D0=BE=
+=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F=D0=BC =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=
+=D0=B8=D1=82=D0=B0</a></li>
+<li><a href=3D"#API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-10.=D0=
+=9F=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D0=B5=D0=A4=D0=98=D0=9E=D1=81=
+=D0=BE=D1=82=D1=80=D1=83=D0=B4=D0=BD=D0=B8=D0=BA=D0=B0=D0=B1=D0=B0=D0=BD=D0=
+=BA=D0=B0=D0=BF=D0=BE=D1=82=D0=B0=D0=B1=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE=D0=BC=
+=D1=83=D0=BD=D0=BE=D0=BC=D0=B5=D1=80=D1=83">10. =D0=9F=D0=BE=D0=BB=D1=83=D1=
+=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=A4=D0=98=D0=9E =D1=81=D0=BE=D1=82=D1=80=D1=
+=83=D0=B4=D0=BD=D0=B8=D0=BA=D0=B0 =D0=B1=D0=B0=D0=BD=D0=BA=D0=B0 =D0=BF=D0=
+=BE =D1=82=D0=B0=D0=B1=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE=D0=BC=D1=83 =D0=BD=D0=
+=BE=D0=BC=D0=B5=D1=80=D1=83</a></li>
+</ul>
+</div>
+<p></p>
+<h2 id=3D"API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-1.=D0=9F=D0=
+=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D0=B5=D1=81=D0=BF=D0=B8=D1=81=D0=BA=
+=D0=B0=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=BE=D0=B2"><strong>1. =
+=D0=9F=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D1=81=D0=BF=D0=B8=
+=D1=81=D0=BA=D0=B0 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=BE=D0=B2</=
+strong></h2>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 66.=
+8179%;">
+<colgroup>
+<col style=3D"width: 13.5933%;">
+<col style=3D"width: 5.4373%;">
+<col style=3D"width: 80.9361%;">
+</colgroup>
+<tbody>
+<tr>
+<td colspan=3D"3" class=3D"confluenceTd"><p><strong><span class=3D"inline-c=
+omment-marker" data-ref=3D"6465cf02-34de-479f-8a48-d05b435eed10">Deposit</s=
+pan></strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=90=D0=B4=D1=80=D0=B5=D1=81:</stro=
+ng></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p>api/deposits</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9C=D0=B5=D1=82=D0=BE=D0=B4:</stro=
+ng></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p>Get</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=
+=D0=B8=D0=B5:</strong></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p>=D0=9F=D1=80=D0=B8=D0=BD=D0=B8=
+=D0=BC=D0=B0=D0=B5=D1=82 clientCode <span>=D0=B8 =D0=B2=D0=BE=D0=B7=D0=B2=
+=D1=80=D0=B0=D1=89=D0=B0=D0=B5=D1=82 =D0=B2=D1=81=D0=B5 =D0=B4=D0=B5=D0=BF=
+=D0=BE=D0=B7=D0=B8=D1=82=D1=8B =D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D0=B0</=
+span></p></td>
+</tr>
+<tr>
+<td colspan=3D"3" class=3D"confluenceTd"><p><strong>=D0=92=D1=85=D0=BE=D0=
+=B4=D1=8F=D1=89=D0=B8=D0=B5 =D0=BF=D0=B0=D1=80=D0=B0=D0=BC=D0=B5=D1=82=D1=
+=80=D1=8B</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>clientCode</strong></p></td>
+<td class=3D"confluenceTd"><p>string</p></td>
+<td class=3D"confluenceTd"><p>=D0=98=D0=B4=D0=B5=D0=BD=D1=82=D0=B8=D1=84=D0=
+=B8=D0=BA=D0=B0=D1=86=D0=B8=D0=BE=D0=BD=D0=BD=D1=8B=D0=B9 =D0=BD=D0=BE=D0=
+=BC=D0=B5=D1=80 =D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D0=B0 =D0=B2 =D0=B1=D0=
+=B0=D0=BD=D0=BA=D0=B5</p></td>
+</tr>
+<tr>
+<td colspan=3D"3" class=3D"confluenceTd"><p><strong>=D0=9F=D1=80=D0=B8=D0=
+=BC=D0=B5=D1=80=D1=8B</strong></p></td>
+</tr>
+<tr>
+<td colspan=3D"3" class=3D"confluenceTd"><p><strong><span class=3D"inline-c=
+omment-marker" data-ref=3D"a3acb228-fee0-454e-ad81-58a2ce03faf6">=D0=9E=D0=
+=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BF=D0=BE=D0=BB=D0=B5=D0=B9</spa=
+n></strong></p></td>
+</tr>
+<tr>
+<td colspan=3D"3" class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80 =
+=D0=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D0=B0:</strong></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p>api/deposits?<strong>clientCode=
+</strong>=3D008.158228</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80 =
+=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D0=B0:</strong></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,=
+102);">{</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "dat=
+a": {</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; =
+&nbsp; "deposits": [</span><br><span style=3D"color: rgb(0,51,102);">&nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span><br><span style=3D"color: rgb(0=
+,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "product=
+": "KOPILKA",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "clientCode": "008.158228",</spa=
+n><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; "contractNum": "24-8-=D0=94/CUM-015678",</span><br=
+><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; "title": "=D0=94=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82 \"=
+=D0=9E=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD =D0=BA=D0=BE=D0=BF=D0=B8=D0=BB=D0=BA=
+=D0=B0\"",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "amount": 500,</span><br><span styl=
+e=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; "percent": "11.5",</span><br><span style=3D"color: rgb(0,51,102);"=
+>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "rewardAmount": 1,=
+</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; "payPeriodName": "TERM",</span><br><span styl=
+e=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; "beginDate": "2024-05-08T00:00:00+06:00",</span><br><span style=3D=
+"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; "endDate": "2025-05-08T00:00:00+06:00",</span><br><span style=3D"color=
+: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "=
+clientAccount": "",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "currency": "USD",</span><=
+br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; "payPeriod": "S.DP.005",</span><br><span style=3D"col=
+or: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ "status": "ACTUAL",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "percentEffective": "2.00=
+5548129",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "percentPenalty": "0",</span><br><sp=
+an style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; "alias": "=D0=A1=D1=82=D1=80=D0=BE=D0=B9=D0=BA=D0=BE=D0=B2 =
+=D0=98=D0=B3=D0=BE=D1=80=D1=8C =D0=92=D0=BB=D0=B0=D0=B4=D0=B8=D0=BC=D0=B8=
+=D1=80=D0=BE=D0=B2=D0=B8=D1=87",</span><br><span style=3D"color: rgb(0,51,1=
+02);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "bankBranch":=
+ 125008,</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "opened": "2024-05-08T00:00:00+06:00"=
+,</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; "closed": null,</span><br><span style=3D"col=
+or: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ "accBal": 500,</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "cardFl": 0,</span><br><span s=
+tyle=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; "datePrdName": "month",</span><br><span style=3D"color: rgb(0,5=
+1,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "available=
+Amount": 500,</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "cardNum": "",</span><br><span s=
+tyle=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; "deposit": "150572658",</span><br><span style=3D"color: rgb(0,5=
+1,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "branch": =
+"1101",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "period": "12",</span><br><span style=
+=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; "canCloseOnline": true,</span><br><span style=3D"color: rgb(0,51,10=
+2);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "noProlongFl":=
+ 0,</span></p><p><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "iban": "1250320030323832",</span><br><=
+span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; },</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; {</span><br><span style=3D"color: rgb(0,51,102);">&nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "product": "KOPILKA",<=
+/span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; "<span style=3D"color: rgb(0,51,102);">clientC=
+ode</span>": "008.158228",</span><br><span style=3D"color: rgb(0,51,102);">=
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "contractNum": "24-=
+8-=D0=94/CUM-015681",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "title": "=D0=94=D0=B5=
+=D0=BF=D0=BE=D0=B7=D0=B8=D1=82 \"=D0=9E=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD =D0=
+=BA=D0=BE=D0=BF=D0=B8=D0=BB=D0=BA=D0=B0\"",</span><br><span style=3D"color:=
+ rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "a=
+mount": 17400,</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "percent": "11.5",</span><br><s=
+pan style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; "rewardAmount": 0,</span><br><span style=3D"color: rgb(0,5=
+1,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "payPeriod=
+Name": "TERM",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "beginDate": "2024-06-08T00:00:=
+00+06:00",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "endDate": "2025-06-08T00:00:00+06:=
+00",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "clientAccount": "1250820066991626",</spa=
+n><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; "currency": "KGS",</span><br><span style=3D"color:=
+ rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "p=
+ayPeriod": "S.DP.005",</span><br><span style=3D"color: rgb(0,51,102);">&nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "status": "ACTUAL",</sp=
+an><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; "percentEffective": "11.504310355",</span><br><sp=
+an style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; "percentPenalty": "0",</span><br><span style=3D"color: rgb(=
+0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "alias"=
+: "=D0=A1=D1=82=D1=80=D0=BE=D0=B9=D0=BA=D0=BE=D0=B2 =D0=98=D0=B3=D0=BE=D1=
+=80=D1=8C =D0=92=D0=BB=D0=B0=D0=B4=D0=B8=D0=BC=D0=B8=D1=80=D0=BE=D0=B2=D0=
+=B8=D1=87",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "bankBranch": 125008,</span><br><s=
+pan style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; "opened": "2024-06-08T00:00:00+06:00",</span><br><span sty=
+le=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; "closed": null,</span><br><span style=3D"color: rgb(0,51,102);">&=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "accBal": 17400,</sp=
+an><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; "cardFl": 0,</span><br><span style=3D"color: rgb(=
+0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "datePr=
+dName": "month",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "availableAmount": 17400,</sp=
+an><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; "cardNum": "",</span><br><span style=3D"color: rg=
+b(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "depo=
+sit": "150572751",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "branch": "1101",</span><br=
+><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; "period": "12",</span><br><span style=3D"color: rgb(0,5=
+1,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "canCloseO=
+nline": true,</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "noProlongFl": 0,</span></p><p><=
+span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; "iban": "1250320030323832",</span></p><p><br><span style=
+=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</sp=
+an></p><p><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; ],</span></p>=
+<p><span style=3D"color: rgb(0,51,102);">&nbsp;&nbsp;&nbsp; "code": 0,</spa=
+n></p><p><span style=3D"color: rgb(0,51,102);">&nbsp;&nbsp;&nbsp; "message"=
+: "Success"</span></p><p><span style=3D"color: rgb(0,51,102);">}</span></p>=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9D=D0=B5=D1=82 =D0=B4=D0=B5=D0=BF=
+=D0=BE=D0=B7=D0=B8=D1=82=D0=BE=D0=B2</strong></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,=
+102);">{</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "dat=
+a": [],</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "code=
+": 0,</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "messag=
+e": "Success"</span><br><span style=3D"color: rgb(0,51,102);">}</span></p><=
+/td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9D=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=
+=D0=B8=D0=B5 =D0=BF=D0=BE=D0=BB=D1=8F</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>=D0=97=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=
+=D0=B8=D0=B5</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>product</p></td>
+<td class=3D"confluenceTd"><p>=D0=9D=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=D0=B8=D0=
+=B5 =D0=BF=D1=80=D0=BE=D0=B4=D1=83=D0=BA=D1=82=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,102);">clientC=
+ode</span></p></td>
+<td class=3D"confluenceTd"><p>=D0=9A=D0=BE=D0=B4 =D0=BA=D0=BB=D0=B8=D0=B5=
+=D0=BD=D1=82=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>contractNum</p></td>
+<td class=3D"confluenceTd"><p>=D0=9D=D0=BE=D0=BC=D0=B5=D1=80 =D0=BA=D0=BE=
+=D0=BD=D1=82=D1=80=D0=B0=D0=BA=D1=82=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>title</p></td>
+<td class=3D"confluenceTd"><p>=D0=9D=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=D0=B8=D0=
+=B5 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>amount</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,102);">=D0=A1=
+=D1=83=D0=BC=D0=BC=D0=B0 =D0=B4=D0=BE=D0=B3=D0=BE=D0=B2=D0=BE=D1=80=D0=B0, =
+=D0=BD=D0=B5 =D0=BE=D0=B1=D0=BD=D1=83=D0=BB=D1=8F=D0=B5=D1=82=D1=81=D1=8F =
+=D0=BF=D1=80=D0=B8 =D0=B7=D0=B0=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=B8 =D0=B4=
+=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>percent</p></td>
+<td class=3D"confluenceTd"><p>=D0=9F=D1=80=D0=BE=D1=86=D0=B5=D0=BD=D1=82=D0=
+=BD=D0=B0=D1=8F =D1=81=D1=82=D0=B0=D0=B2=D0=BA=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>rewardAmount</p></td>
+<td class=3D"confluenceTd"><p>=D0=9D=D0=B0=D0=BA=D0=BE=D0=BF=D0=BB=D0=B5=D0=
+=BD=D0=BD=D0=B0=D1=8F =D1=81=D1=83=D0=BC=D0=BC=D0=B0 =D0=BF=D0=BE =D0=B4=D0=
+=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=83</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>payPeriodName</p></td>
+<td class=3D"confluenceTd"><p>=D0=9F=D0=B5=D1=80=D0=B8=D0=BE=D0=B4 =D0=B2=
+=D1=8B=D0=BF=D0=BB=D0=B0=D1=82=D1=8B =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D0=BD=
+=D1=82=D0=BE=D0=B2</p><p>(<u>month </u>- <span style=3D"color: rgb(0,51,102=
+);">0194_0&nbsp; /&nbsp; &nbsp;<u>term </u>- </span><span style=3D"color: r=
+gb(0,51,102);">S.DP.005</span>)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>beginDate</p></td>
+<td class=3D"confluenceTd"><p>=D0=94=D0=B0=D1=82=D0=B0 =D0=BD=D0=B0=D1=87=
+=D0=B0=D0=BB=D0=B0 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</p></td=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>endDate</p></td>
+<td class=3D"confluenceTd"><p>=D0=94=D0=B0=D1=82=D0=B0 =D0=BE=D0=BA=D0=BE=
+=D0=BD=D1=87=D0=B0=D0=BD=D0=B8=D1=8F =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=
+=D1=82=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>clientAccount</p></td>
+<td class=3D"confluenceTd"><p>=D0=9D=D0=BE=D0=BC=D0=B5=D1=80 =D1=81=D1=87=
+=D1=91=D1=82=D0=B0 =D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>currency</p></td>
+<td class=3D"confluenceTd"><p>=D0=92=D0=B0=D0=BB=D1=8E=D1=82=D0=B0 ( <span =
+style=3D"color: rgb(0,51,102);">KGS,&nbsp; </span><span style=3D"color: rgb=
+(0,51,102);">USD,&nbsp; </span><span style=3D"color: rgb(0,51,102);">KGS </=
+span>)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>payPeriod</p></td>
+<td class=3D"confluenceTd"><p>=D0=9F=D0=B5=D1=80=D0=B8=D0=BE=D0=B4 =D0=B2=
+=D1=8B=D0=BF=D0=BB=D0=B0=D1=82=D1=8B =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D0=BD=
+=D1=82=D0=BE=D0=B2 (=D0=BA=D0=BE=D0=B4)</p><p>&nbsp;(month - <span style=3D=
+"color: rgb(0,51,102);"><u>0194_0</u>&nbsp; /&nbsp; &nbsp;term - </span><u>=
+<span style=3D"color: rgb(0,51,102);">S.DP.005</span></u>)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>status</strong></p></td>
+<td class=3D"confluenceTd"><p>=D0=A1=D1=82=D0=B0=D1=82=D1=83=D1=81</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>percentEffective</p></td>
+<td class=3D"confluenceTd"><p>=D0=AD=D1=84=D1=84=D0=B5=D0=BA=D1=82=D0=B8=D0=
+=B2=D0=BD=D0=B0=D1=8F =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D0=BD=D1=82=D0=BD=D0=
+=B0=D1=8F =D1=81=D1=82=D0=B0=D0=B2=D0=BA=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>percentPenalty</p></td>
+<td class=3D"confluenceTd"><p>=D0=92=D0=BE=D0=B7=D0=BD=D0=B0=D0=B3=D1=80=D0=
+=B0=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BF=D0=BE =D1=88=D1=82=D1=80=D0=
+=B0=D1=84=D0=BD=D0=BE=D0=B9 =D1=81=D1=82=D0=B0=D0=B2=D0=BA=D0=B5 (=D0=B3=D0=
+=B4=D0=B5 0 % - =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D0=BD=D1=82=D1=8B =D0=BF=D0=
+=BE=D0=BB=D0=BD=D0=BE=D1=81=D1=82=D1=8C=D1=8E =D1=81=D0=B3=D0=BE=D1=80=D0=
+=B0=D1=8E=D1=82, 50% - =D1=81=D0=B3=D0=BE=D1=80=D0=B0=D0=B5=D1=82 =D0=BF=D0=
+=BE=D0=BB=D0=BE=D0=B2=D0=B8=D0=BD=D0=B0 )</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>alias</p></td>
+<td class=3D"confluenceTd"><p>=D0=9F=D0=BE=D0=BB=D0=BD=D0=BE=D0=B5 =D0=A4=
+=D0=98=D0=9E</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>bankBranch</p></td>
+<td class=3D"confluenceTd"><p>=D0=A4=D0=B8=D0=BB=D0=B8=D0=B0=D0=BB =D0=B1=
+=D0=B0=D0=BD=D0=BA=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>opened</p></td>
+<td class=3D"confluenceTd"><p>=D0=94=D0=B0=D1=82=D0=B0 =D0=BE=D1=82=D0=BA=
+=D1=80=D1=8B=D1=82=D0=B8=D1=8F</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>closed</p></td>
+<td class=3D"confluenceTd"><p>=D0=94=D0=B0=D1=82=D0=B0 =D0=B7=D0=B0=D0=BA=
+=D1=80=D1=8B=D1=82=D0=B8=D1=8F</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>accBal</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,102);">=D0=9E=
+=D1=81=D1=82=D0=B0=D1=82=D0=BE=D0=BA =D0=BF=D0=BE =D0=B4=D0=B5=D0=BF=D0=BE=
+=D0=B7=D0=B8=D1=82=D0=BD=D0=BE=D0=BC=D1=83 =D1=81=D1=87=D0=B5=D1=82=D1=83.&=
+nbsp;</span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>cardFl</p></td>
+<td class=3D"confluenceTd"><p>=D0=9F=D1=80=D0=B8=D0=B7=D0=BD=D0=B0=D0=BA =
+=D0=B2=D1=8B=D0=BF=D0=BB=D0=B0=D1=82=D1=8B =D0=BD=D0=B0 =D0=BA=D0=B0=D1=80=
+=D1=82=D1=83 (=D0=BF=D1=80=D0=BE=D1=86=D0=B5=D0=BD=D1=82=D1=8B)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>datePrdName</p></td>
+<td class=3D"confluenceTd"><p>=D0=95=D0=B4=D0=B8=D0=BD=D0=B8=D1=86=D0=B0 =
+=D0=B8=D0=B7=D0=BC=D0=B5=D1=80=D0=B5=D0=BD=D0=B8=D1=8F =D0=B4=D0=B5=D0=BF=
+=D0=BE=D0=B7=D0=B8=D1=82=D0=B0 =E2=80=93 =D0=BC=D0=B5=D1=81=D1=8F=D1=86</p>=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>availableAmount</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,102);">=D0=94=
+=D0=BE=D1=81=D1=82=D1=83=D0=BF=D0=BD=D0=B0=D1=8F =D1=81=D1=83=D0=BC=D0=BC=
+=D0=B0 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0. =D0=94=D0=BB=D1=8F=
+ =D0=B2=D1=81=D0=B5=D1=85 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=BE=
+=D0=B2 =D0=BE=D0=BD=D0=B0 =D0=B1=D1=83=D0=B4=D0=B5=D1=82 =D0=B2=D1=81=D0=B5=
+=D0=B3=D0=B4=D0=B0 =D1=80=D0=B0=D0=B2=D0=BD=D0=B0 =D0=BE=D1=81=D1=82=D0=B0=
+=D1=82=D0=BA=D1=83, =D0=BD=D0=BE =D0=B4=D0=BB=D1=8F =D0=BF=D1=80=D0=BE=D0=
+=B4=D1=83=D0=BA=D1=82=D0=B0 =D0=A3=D0=BD=D0=B8=D0=B2=D0=B5=D1=80=D1=81=D0=
+=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 - =D0=BE=D1=81=D1=82=D0=B0=D1=82=D0=BE=D0=
+=BA -=D0=BD=D0=B5=D1=81=D0=BD=D0=B8=D0=B6=D0=B0=D0=B5=D0=BC=D1=8B=D0=B9 =D0=
+=BE=D1=81=D1=82=D0=B0=D1=82=D0=BE=D0=BA 15000 =D1=81=D0=BE=D0=BC</span></p>=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span class=3D"inline-comment-marker" data-re=
+f=3D"631912f3-93cf-406e-a9f5-18efea860203">cardNum</span></p></td>
+<td class=3D"confluenceTd"><p><span class=3D"inline-comment-marker" data-re=
+f=3D"631912f3-93cf-406e-a9f5-18efea860203">=D0=9D=D0=BE=D0=BC=D0=B5=D1=80 =
+=D0=BA=D0=B0=D1=80=D1=82=D0=BE=D1=87=D0=BD=D0=BE=D0=B3=D0=BE =D1=81=D1=87=
+=D0=B5=D1=82=D0=B0</span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>deposit</p></td>
+<td class=3D"confluenceTd"><p>Id =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=
+=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>branch</p></td>
+<td class=3D"confluenceTd"><p>=D0=A4=D0=B8=D0=BB=D0=B8=D0=B0=D0=BB =D0=B4=
+=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>period</p></td>
+<td class=3D"confluenceTd"><p>=D0=A1=D1=80=D0=BE=D0=BA =D0=B2=D0=B7=D1=8F=
+=D1=82=D0=B8=D1=8F =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</p></td=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>canCloseOnline</p></td>
+<td class=3D"confluenceTd"><p>=D0=92=D0=BE=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=
+=BE=D1=81=D1=82=D1=8C =D0=B7=D0=B0=D0=BA=D1=80=D1=8B=D1=82=D1=8C Online</p>=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>noProlongFl</p></td>
+<td class=3D"confluenceTd"><p>=D0=A4=D0=BB=D0=B0=D0=B3 =D0=BF=D1=80=D0=BE=
+=D0=BB=D0=BE=D0=BD=D0=B3=D0=B0=D1=86=D0=B8=D0=B8 =E2=80=93 =D0=BF=D1=80=D0=
+=BE=D0=BB=D0=BE=D0=BD=D0=B3=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=
+=D0=B9 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82 (0 - =D0=BD=D0=B5 =D0=BF=
+=D1=80=D0=BE=D0=BB=D0=BE=D0=BD=D0=B3=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD / =
+1 - =D0=BF=D1=80=D0=BE=D0=BB=D0=BE=D0=BD=D0=B3=D0=B8=D1=80=D0=BE=D0=B2=D0=
+=B0=D0=BD)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>iban</p></td>
+<td class=3D"confluenceTd"><p>iban-=D1=81=D1=87=D0=B5=D1=82 =D0=B4=D0=B5=D0=
+=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0 (=D0=BF=D0=BE =D0=BD=D0=B5=D0=BC=D1=83 =
+=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE =D0=BF=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=D1=8F=
+=D1=82=D1=8C =D1=87=D0=B5=D1=80=D0=B5=D0=B7 =D1=82=D0=B5=D1=80=D0=BC=D0=B8=
+=D0=BD=D0=B0=D0=BB)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 17.=
+3341%;">
+<colgroup>
+<col style=3D"width: 54.2283%;">
+<col style=3D"width: 95.7717%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A1=D1=82=D0=B0=D1=82=D1=83=D1=81=D1=8B =D0=B4=D0=B5=D0=BF=D0=
+=BE=D0=B7=D0=B8=D1=82=D0=BE=D0=B2</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A2=D0=B5=D0=BA=D1=81=D1=82</strong></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">CLOSED</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=97=D0=B0=D0=BA=D1=80=D1=8B=D1=
+=82</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">CARRIED_OVER</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=9F=D1=80=D0=BE=D0=BB=D0=BE=D0=
+=BD=D0=B3=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">STCLOSEOUT</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=A0=D0=B0=D1=81=D1=82=D0=BE=D1=
+=80=D0=B3=D0=BD=D1=83=D1=82 =D0=B4=D0=BE=D1=81=D1=80=D0=BE=D1=87=D0=BD=D0=
+=BE</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">STENDORDADDPAY</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=92=D1=8B=D0=BF=D0=BB=D0=B0=D1=
+=87=D0=B5=D0=BD</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">STCLOSEDWERR</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=97=D0=B0=D0=BA=D1=80=D1=8B=D1=
+=82 =D0=B1=D0=B5=D0=B7 =D0=BD=D0=B0=D1=80=D1=83=D1=88=D0=B5=D0=BD=D0=B8=D0=
+=B9</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">NSLCLOSED</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=A3=D1=81=D0=BB=D0=BE=D0=B2=D0=
+=BD=D0=BE =D0=B7=D0=B0=D0=BA=D1=80=D1=8B=D1=82</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">ACTUAL</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=90=D0=BA=D1=82=D1=83=D0=B0=D0=
+=BB=D1=8C=D0=BD=D1=8B=D0=B9</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">AREST</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=90=D1=80=D0=B5=D1=81=D1=82=D0=
+=BE=D0=B2=D0=B0=D0=BD</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">FINISH</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=97=D0=B0=D0=B2=D0=B5=D1=80=D1=
+=88=D0=B5=D0=BD</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 26.=
+0011%;">
+<colgroup>
+<col style=3D"width: 13.5345%;">
+<col style=3D"width: 44.6215%;">
+<col style=3D"width: 41.6325%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong><span class=3D"inline-comment-marker" data-ref=3D"322241ad-0d3e-=
+4c6f-9c3f-7bd923dae775">=D0=A1=D1=82=D0=B0=D1=82=D1=83=D1=81</span></strong=
+></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A2=D0=B5=D0=BA=D1=81=D1=82</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5</strong></p></t=
+d>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">0</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">Success</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=A3=D1=81=D0=BF=D0=B5=D1=88=D0=
+=BD=D0=BE</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">501</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">Occurred unhandled exception</span=
+></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=92=D0=BD=D1=83=D1=82=D1=80=D0=
+=B5=D0=BD=D1=8F=D1=8F =D0=BE=D1=88=D0=B8=D0=B1=D0=BA=D0=B0</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">404</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">Client not found</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);"><span style=3D"color: rgb(0,51,102=
+);">=D0=9A=D0=BB=D0=B8=D0=B5=D0=BD=D1=82 =D0=BD=D0=B5 =D0=BD=D0=B0=D0=B9=D0=
+=B4=D0=B5=D0=BD</span></span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>7001</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Pin is required</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=9D=D0=B5 =D1=83=D0=BA=D0=B0=D0=
+=B7=D0=B0=D0=BD =D0=BF=D0=B8=D0=BD</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>7002</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Cannot obtain deposit information</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=A1=D0=B5=D1=80=D0=B2=D0=B8=D1=
+=81 =D0=BD=D0=B5 =D1=81=D0=BC=D0=BE=D0=B3 =D0=B2=D0=B7=D1=8F=D1=82=D1=8C =
+=D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8E =D0=BE =D0=B4=
+=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0=D1=85</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-2.=D0=92=D1=
+=8B=D0=BF=D0=B8=D1=81=D0=BA=D0=B0=D0=BF=D0=BE=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=
+=D0=B8=D1=82=D1=83=D1=81=D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=BE=D0=
+=BD=D0=BD=D1=8B=D0=BC=D0=B8=D0=B4=D0=BD=D1=8F=D0=BC=D0=B8"><strong>2. =D0=
+=92=D1=8B=D0=BF=D0=B8=D1=81=D0=BA=D0=B0 =D0=BF=D0=BE =D0=B4=D0=B5=D0=BF=D0=
+=BE=D0=B7=D0=B8=D1=82=D1=83 =D1=81 =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=
+=B8=D0=BE=D0=BD=D0=BD=D1=8B=D0=BC=D0=B8 =D0=B4=D0=BD=D1=8F=D0=BC=D0=B8</str=
+ong></h2>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 66.=
+8678%;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 11.8228%;">
+<col class=3D"" style=3D"width: 5.41879%;">
+<col class=3D"" style=3D"width: 82.7597%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><strong>=D0=90=D0=B4=D1=80=D0=B5=D1=81:</stro=
+ng></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,=
+102);">api/deposits/statementV2</span></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><strong>=D0=9C=D0=B5=D1=82=D0=BE=D0=B4:</stro=
+ng></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p>Post</p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><strong>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=
+=D0=B8=D0=B5:</strong></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p>=D0=9F=D1=80=D0=B8=D0=BD=D0=B8=
+=D0=BC=D0=B0=D0=B5=D1=82 =D0=BF=D0=B5=D1=80=D0=B8=D0=BE=D0=B4 =D0=B4=D0=B0=
+=D1=82, =D1=84=D0=B8=D0=BB=D0=B8=D0=B0=D0=BB =D0=B8 =D0=BD=D0=BE=D0=BC=D0=
+=B5=D1=80 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0 =D0=B8 =D0=B2=D0=
+=BE=D0=B7=D0=B2=D1=80=D0=B0=D1=89=D0=B0=D0=B5=D1=82 =D0=B2=D1=8B=D0=BF=D0=
+=B8=D1=81=D0=BA=D1=83 =D0=BF=D0=BE =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=
+=82=D1=83.</p></td>
+</tr>
+<tr class=3D"">
+<td colspan=3D"3" class=3D"confluenceTd"><p><strong>=D0=92=D1=85=D0=BE=D0=
+=B4=D1=8F=D1=89=D0=B8=D0=B5 =D0=BF=D0=B0=D1=80=D0=B0=D0=BC=D0=B5=D1=82=D1=
+=80=D1=8B</strong></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(0,51,102);"=
+>dateFrom</span></strong></p></td>
+<td class=3D"confluenceTd"><p>string</p></td>
+<td class=3D"confluenceTd"><p>=D0=B4=D0=B0=D1=82=D0=B0 =D0=BD=D0=B0=D1=87=
+=D0=B0=D0=BB=D0=B0</p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(0,51,102);"=
+>dateTo</span></strong></p></td>
+<td class=3D"confluenceTd"><p>string</p></td>
+<td class=3D"confluenceTd"><p>=D0=B4=D0=B0=D1=82=D0=B0 =D0=BA=D0=BE=D0=BD=
+=D1=86=D0=B0</p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(0,51,102);"=
+>branch</span></strong></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,102);">string<=
+/span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,102);">=D1=84=
+=D0=B8=D0=BB=D0=B8=D0=B0=D0=BB</span></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(0,51,102);"=
+>deposit</span></strong></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,102);">string<=
+/span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,102);">=D0=BD=
+=D0=BE=D0=BC=D0=B5=D1=80 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</=
+span></p></td>
+</tr>
+<tr class=3D"">
+<td colspan=3D"3" class=3D"confluenceTd"><p><strong>=D0=9F=D1=80=D0=B8=D0=
+=BC=D0=B5=D1=80=D1=8B</strong></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><strong>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80 =
+=D0=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D0=B0:</strong></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p>{<br>
+ "dateFrom": "2020-08-08",<br>
+ "dateTo": "2024-08-08",<br>
+ "branch": "1101",<br>
+ "deposit": "150572658"<br>
+ }</p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><strong>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80 =
+=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D0=B0:</strong></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p>{<br>
+ &nbsp; &nbsp; "data": {<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; "statement": [<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "operDate": "2024-=
+05-08T00:00:00+06:00",<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "operDscr": "=D0=
+=9F=D1=80=D0=B8=D0=B5=D0=BC =D0=B2=D0=BA=D0=BB=D0=B0=D0=B4=D0=B0 =D0=BF=D0=
+=BE =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=BD=D0=BE=D0=BC=D1=83 =D0=
+=B4=D0=BE=D0=B3=D0=BE=D0=B2=D0=BE=D1=80=D1=83 =E2=84=96 24-8-=D0=94/CUM-015=
+678.=D0=92=D0=BA=D0=BB=D0=B0=D0=B4=D1=87=D0=B8=D0=BA =D0=A1=D1=82=D1=80=D0=
+=BE=D0=B9=D0=BA=D0=BE=D0=B2 =D0=98=D0=B3=D0=BE=D1=80=D1=8C =D0=92=D0=BB=D0=
+=B0=D0=B4=D0=B8=D0=BC=D0=B8=D1=80=D0=BE=D0=B2=D0=B8=D1=87.",<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "debet": null,<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "credit": 200,<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "moveBalout": 0<br=
+>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; ]<br>
+ &nbsp; &nbsp; },<br>
+ &nbsp; &nbsp; "code": 0,<br>
+ &nbsp; &nbsp; "message": "Success"<br>
+ }</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 26.=
+0011%;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 13.5345%;">
+<col class=3D"" style=3D"width: 44.6215%;">
+<col class=3D"" style=3D"width: 41.6325%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A1=D1=82=D0=B0=D1=82=D1=83=D1=81</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A2=D0=B5=D0=BA=D1=81=D1=82</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5</strong></p></t=
+d>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">0</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">Success</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=A3=D1=81=D0=BF=D0=B5=D1=88=D0=
+=BD=D0=BE</span></p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">501</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">Occurred unhandled exception</span=
+></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=92=D0=BD=D1=83=D1=82=D1=80=D0=
+=B5=D0=BD=D1=8F=D1=8F =D0=BE=D1=88=D0=B8=D0=B1=D0=BA=D0=B0</span></p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>404</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Deposit not found</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=94=D0=B5=D0=BF=D0=BE=D0=B7=D0=
+=B8=D1=82 =D0=BD=D0=B5 =D0=BD=D0=B0=D0=B9=D0=B4=D0=B5=D0=BD</span></p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>7005</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Cannot obtain deposit statement information</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=A1=D0=B5=D1=80=D0=B2=D0=B8=D1=
+=81 =D0=BD=D0=B5 =D1=81=D0=BC=D0=BE=D0=B3 =D0=B2=D0=B7=D1=8F=D1=82=D1=8C =
+=D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8E =D0=BE =D0=B2=
+=D1=8B=D0=BF=D0=B8=D1=81=D0=BA=D0=B5</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-3.=D0=92=D1=
+=8B=D0=BF=D0=B8=D1=81=D0=BA=D0=B0=D0=BF=D0=BE=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=
+=D0=B8=D1=82=D1=83"><strong>3. =D0=92=D1=8B=D0=BF=D0=B8=D1=81=D0=BA=D0=B0 =
+=D0=BF=D0=BE =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=83</strong></h2>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 66.=
+8678%;">
+<colgroup>
+<col style=3D"width: 11.8228%;">
+<col style=3D"width: 5.41879%;">
+<col style=3D"width: 82.7597%;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=90=D0=B4=D1=80=D0=B5=D1=81:</stro=
+ng></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,=
+102);">api/deposits/statement</span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9C=D0=B5=D1=82=D0=BE=D0=B4:</stro=
+ng></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p>Post</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=
+=D0=B8=D0=B5:</strong></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p>=D0=9F=D1=80=D0=B8=D0=BD=D0=B8=
+=D0=BC=D0=B0=D0=B5=D1=82 =D0=BF=D0=B5=D1=80=D0=B8=D0=BE=D0=B4 =D0=B4=D0=B0=
+=D1=82, =D1=84=D0=B8=D0=BB=D0=B8=D0=B0=D0=BB =D0=B8 =D0=BD=D0=BE=D0=BC=D0=
+=B5=D1=80 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0 =D0=B8 =D0=B2=D0=
+=BE=D0=B7=D0=B2=D1=80=D0=B0=D1=89=D0=B0=D0=B5=D1=82 =D0=B2=D1=8B=D0=BF=D0=
+=B8=D1=81=D0=BA=D1=83 =D0=BF=D0=BE =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=
+=82=D1=83.</p></td>
+</tr>
+<tr>
+<td colspan=3D"3" class=3D"confluenceTd"><p><strong>=D0=92=D1=85=D0=BE=D0=
+=B4=D1=8F=D1=89=D0=B8=D0=B5 =D0=BF=D0=B0=D1=80=D0=B0=D0=BC=D0=B5=D1=82=D1=
+=80=D1=8B</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(0,51,102);"=
+>dateFrom</span></strong></p></td>
+<td class=3D"confluenceTd"><p>string</p></td>
+<td class=3D"confluenceTd"><p>=D0=B4=D0=B0=D1=82=D0=B0 =D0=BD=D0=B0=D1=87=
+=D0=B0=D0=BB=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(0,51,102);"=
+>dateTo</span></strong></p></td>
+<td class=3D"confluenceTd"><p>string</p></td>
+<td class=3D"confluenceTd"><p>=D0=B4=D0=B0=D1=82=D0=B0 =D0=BA=D0=BE=D0=BD=
+=D1=86=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(0,51,102);"=
+>branch</span></strong></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,102);">string<=
+/span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,102);">=D1=84=
+=D0=B8=D0=BB=D0=B8=D0=B0=D0=BB</span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(0,51,102);"=
+>deposit</span></strong></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,102);">string<=
+/span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,102);">=D0=BD=
+=D0=BE=D0=BC=D0=B5=D1=80 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</=
+span></p></td>
+</tr>
+<tr>
+<td colspan=3D"3" class=3D"confluenceTd"><p><strong>=D0=9F=D1=80=D0=B8=D0=
+=BC=D0=B5=D1=80=D1=8B</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80 =
+=D0=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D0=B0:</strong></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p>{<br>
+ "dateFrom": "2020-08-08",<br>
+ "dateTo": "2024-08-08",<br>
+ "branch": "1101",<br>
+ "deposit": "150572658"<br>
+ }</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80 =
+=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D0=B0:</strong></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p>{<br>
+ &nbsp; &nbsp; "data": {<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; "statement": [<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "operDate": "2024-=
+05-08T00:00:00+06:00",<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "operDscr": "=D0=
+=9F=D1=80=D0=B8=D0=B5=D0=BC =D0=B2=D0=BA=D0=BB=D0=B0=D0=B4=D0=B0 =D0=BF=D0=
+=BE =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=BD=D0=BE=D0=BC=D1=83 =D0=
+=B4=D0=BE=D0=B3=D0=BE=D0=B2=D0=BE=D1=80=D1=83 =E2=84=96 24-8-=D0=94/CUM-015=
+678.=D0=92=D0=BA=D0=BB=D0=B0=D0=B4=D1=87=D0=B8=D0=BA =D0=A1=D1=82=D1=80=D0=
+=BE=D0=B9=D0=BA=D0=BE=D0=B2 =D0=98=D0=B3=D0=BE=D1=80=D1=8C =D0=92=D0=BB=D0=
+=B0=D0=B4=D0=B8=D0=BC=D0=B8=D1=80=D0=BE=D0=B2=D0=B8=D1=87.",<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "debet": null,<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "credit": 200,<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "moveBalout": 200<=
+br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; ]<br>
+ &nbsp; &nbsp; },<br>
+ &nbsp; &nbsp; "code": 0,<br>
+ &nbsp; &nbsp; "message": "Success"<br>
+ }</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 26.=
+0011%;">
+<colgroup>
+<col style=3D"width: 13.5345%;">
+<col style=3D"width: 44.6215%;">
+<col style=3D"width: 41.6325%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A1=D1=82=D0=B0=D1=82=D1=83=D1=81</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A2=D0=B5=D0=BA=D1=81=D1=82</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5</strong></p></t=
+d>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">0</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">Success</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=A3=D1=81=D0=BF=D0=B5=D1=88=D0=
+=BD=D0=BE</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">501</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">Occurred unhandled exception</span=
+></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=92=D0=BD=D1=83=D1=82=D1=80=D0=
+=B5=D0=BD=D1=8F=D1=8F =D0=BE=D1=88=D0=B8=D0=B1=D0=BA=D0=B0</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>404</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Deposit not found</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=94=D0=B5=D0=BF=D0=BE=D0=B7=D0=
+=B8=D1=82 =D0=BD=D0=B5 =D0=BD=D0=B0=D0=B9=D0=B4=D0=B5=D0=BD</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>7005</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Cannot obtain deposit statement information</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);"><span style=3D"color: rgb(0,51,102=
+);">=D0=A1=D0=B5=D1=80=D0=B2=D0=B8=D1=81 =D0=BD=D0=B5 =D1=81=D0=BC=D0=BE=D0=
+=B3 =D0=B2=D0=B7=D1=8F=D1=82=D1=8C =D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=
+=B0=D1=86=D0=B8=D1=8E =D0=BE =D0=B2=D1=8B=D0=BF=D0=B8=D1=81=D0=BA=D0=B5</sp=
+an></span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-4.=D0=A1=D0=
+=BF=D0=B8=D1=81=D0=BE=D0=BA=D0=BF=D1=80=D0=BE=D0=B4=D1=83=D0=BA=D1=82=D0=BE=
+=D0=B2=D0=BF=D0=BE=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=83(=D0=B4=
+=D0=BB=D1=8F=D0=B2=D0=B8=D1=82=D1=80=D0=B8=D0=BD=D1=8B)"><strong>4. =D0=A1=
+=D0=BF=D0=B8=D1=81=D0=BE=D0=BA =D0=BF=D1=80=D0=BE=D0=B4=D1=83=D0=BA=D1=82=
+=D0=BE=D0=B2 =D0=BF=D0=BE =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=83(=
+=D0=B4=D0=BB=D1=8F =D0=B2=D0=B8=D1=82=D1=80=D0=B8=D0=BD=D1=8B)</strong></h2=
+>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 66.=
+8678%;">
+<colgroup>
+<col style=3D"width: 11.8316%;">
+<col style=3D"width: 5.42282%;">
+<col style=3D"width: 82.6839%;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=90=D0=B4=D1=80=D0=B5=D1=81:</stro=
+ng></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,=
+102);">api/deposits/products@</span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9C=D0=B5=D1=82=D0=BE=D0=B4:</stro=
+ng></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p>Get</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=
+=D0=B8=D0=B5:</strong></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p>=D0=92=D0=BE=D0=B7=D0=B2=D1=80=
+=D0=B0=D1=89=D0=B0=D0=B5=D1=82 =D0=B2=D1=81=D0=B5 =D0=BF=D1=80=D0=BE=D0=B4=
+=D1=83=D0=BA=D1=82=D1=8B =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=BE=
+=D0=B2.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(0,51,102);"=
+>depositType</span></strong></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p>=D0=9F=D0=BE=D0=BB=D0=B5 =D1=83=
+=D0=BA=D0=B0=D0=B7=D1=8B=D0=B2=D0=B0=D0=B5=D1=82, =D0=B4=D0=BE=D1=81=D1=82=
+=D1=83=D0=BF=D0=B5=D0=BD =D0=BB=D0=B8 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=
+=D1=82 =D0=B4=D0=BB=D1=8F =D0=BE=D1=82=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D1=8F =
+=D0=BE=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD, =D0=BE=D1=84=D0=BB=D0=B0=D0=B9=D0=BD =
+=D0=B8=D0=BB=D0=B8 =D0=BE=D0=B1=D0=BE=D0=B8=D0=BC=D0=B8 =D1=81=D0=BF=D0=BE=
+=D1=81=D0=BE=D0=B1=D0=B0=D0=BC=D0=B8. =D0=92=D0=BE=D0=B7=D0=BC=D0=BE=D0=B6=
+=D0=BD=D1=8B=D0=B5 =D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D1=8F: <code>=
+online</code>, <code>offline</code>, <code>both,<span style=3D"color: rgb(2=
+55,0,0);">arvhive</span></code><span style=3D"color: rgb(255,0,0);">&nbsp;<=
+/span>(=D0=B4=D0=BB=D1=8F =D0=BE=D0=B1=D0=BE=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=
+=D0=BD=D0=B8=D1=8F =D0=B2=D0=BE=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE=D1=81=
+=D1=82=D0=B8 =D0=BE=D1=82=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D1=8F =D0=B4=D0=B5=
+=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0 =D0=BA=D0=B0=D0=BA =D0=BE=D0=BD=D0=BB=
+=D0=B0=D0=B9=D0=BD, =D1=82=D0=B0=D0=BA =D0=B8 =D0=BE=D1=84=D0=BB=D0=B0=D0=
+=B9=D0=BD).</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80 =
+=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D0=B0:</strong></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,=
+102);">{</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "dat=
+a": [</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; =
+&nbsp;</span></p><p><span style=3D"color: rgb(153,51,0);">{</span><br><span=
+ style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+"product": "=D0=9D=D0=B0=D0=BA=D0=BE=D0=BF=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=
+=BD=D1=8B=D0=B9 =D0=B1=D0=B0=D0=B7=D0=BE=D0=B2=D1=8B=D0=B9",</span></p><p><=
+span style=3D"color: rgb(156,220,254);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; <span style=3D"color: rgb(0,51,102);">"depositCode"</span></span><sp=
+an style=3D"color: rgb(0,51,102);">: "<s>BACUM</s>"</span><span style=3D"co=
+lor: rgb(0,51,102);">, </span><span style=3D"color: rgb(255,0,0);">=D0=9D=
+=D0=BE=D0=B2=D1=8B=D0=B5 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B =
+=D0=B1=D0=BE=D0=BB=D1=8C=D1=88=D0=B5 =D0=BD=D0=B5 =D0=B1=D1=83=D0=B4=D1=83=
+=D1=82 =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=B2=D0=B0=D1=82=D1=8C=D1=81=D1=8F =
+=D0=BF=D0=BE =D1=82=D0=B8=D0=BF=D1=83 BACUM, =D0=B2=D0=BC=D0=B5=D1=81=D1=82=
+=D0=BE =D1=8D=D1=82=D0=BE=D0=B3=D0=BE =D0=B1=D1=83=D0=B4=D1=83=D1=82 =D0=B8=
+=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D1=8C=D1=81=D1=
+=8F =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B =D1=81 =D1=82=D0=B8=D0=
+=BF=D0=BE=D0=BC BACUM1.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; =D0=A2=D0=B8=D0=BF BACUM =D0=B1=D1=83=D0=B4=D0=B5=D1=82 =D0=
+=BE=D1=82=D0=BE=D0=B1=D1=80=D0=B0=D0=B6=D0=B0=D1=82=D1=8C=D1=81=D1=8F =D0=
+=BA=D0=B0=D0=BA Archive.</span></p><p><span style=3D"color: rgb(0,51,102);"=
+>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "depositType": "Online",</span><=
+br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; "periods": [</span><br><span style=3D"color: rgb(0,51,102);">&nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span><br><span style=
+=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; "month": 3,</span><br><span style=3D"color: rgb(0,51,=
+102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; "interestRate": [</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; {</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+"currency": "KGS",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; "rate": 5</span><br><span style=3D"color: rgb(0,51,102);">&n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; },</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span>=
+<br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "currency"=
+: "USD",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; "rate": 0.5</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }=
+,</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span><br><spa=
+n style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "currency": "RUB",=
+</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "ra=
+te": 4</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</span><br=
+><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ]</span><br><span style=3D"color: rgb(0,5=
+1,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span><=
+br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; {</span><br><span style=3D"color: rgb(0,51,102);">&nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "month":=
+ 6,</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "interestRate": [</span><br>=
+<span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span><br><span style=3D"c=
+olor: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "currency": "KGS",</span><br><=
+span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "rate": 7</span=
+><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span><br><span styl=
+e=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span><br><span style=3D"color: rgb(=
+0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "currency": "USD",</span><br><span style=
+=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "rate": 1</span><br><span=
+ style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span><br><span style=3D"color=
+: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; {</span><br><span style=3D"color: rgb(0,51,102);=
+">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; "currency": "RUB",</span><br><span style=3D"color:=
+ rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "rate": 6</span><br><span style=3D"=
+color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; }</span><br><span style=3D"color: rgb(0,51,=
+102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; ]</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span><br><span style=3D"color: rgb(0,5=
+1,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span><b=
+r><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "month": 9,</span><br><span style=3D"col=
+or: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; "interestRate": [</span><br><span style=3D"color: rgb(0,51,1=
+02);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; {</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; "currency": "KGS",</span><br><span style=3D"color: rgb(0,51,10=
+2);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; "rate": 9</span><br><span style=3D"color: rgb(0=
+,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; },</span><br><span style=3D"color: rgb(0,51,102);">&nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; {</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; "currency": "USD",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; "rate": 1.5</span><br><span style=3D"color: rgb(0,51,102)=
+;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; },</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</=
+span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "curr=
+ency": "RUB",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; "rate": 7.5</span><br><span style=3D"color: rgb(0,51,102);">&nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; }</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ]</span><br><span style=3D=
+"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; },</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span><br><span style=3D"color: rgb(=
+0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; "month": 12,</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "interestRat=
+e": [</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span><br>=
+<span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "currency": "K=
+GS",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ "rate": 11.5</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</=
+span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span><br><span s=
+tyle=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "currency": "USD",</s=
+pan><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "rate"=
+: 2</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span><br><=
+span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span><br><span style=3D"co=
+lor: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "currency": "RUB",</span><br><s=
+pan style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "rate": 8.5</spa=
+n><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</span><br><span styl=
+e=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; ]</span><br><span style=3D"color: rgb(0,51,102);">&n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span><br><span st=
+yle=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; {</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "month": 18,</span>=
+<br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "interestRate": [</span><br><span styl=
+e=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span><br><span style=3D"color: rgb(=
+0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "currency": "KGS",</span><br><span style=
+=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "rate": 12</span><br><spa=
+n style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span><br><span style=3D"colo=
+r: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; {</span><br><span style=3D"color: rgb(0,51,102)=
+;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; "currency": "RUB",</span><br><span style=3D"color=
+: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "rate": 9</span><br><span style=3D=
+"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; }</span><br><span style=3D"color: rgb(0,51=
+,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; ]</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</span><br><span style=3D"color: rgb(0,=
+51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span><=
+br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "month": 24,</span><br><span style=3D"c=
+olor: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; "interestRate": [</span><br><span style=3D"color: rgb(0,51=
+,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; {</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; "currency": "KGS",</span><br><span style=3D"color: rgb(0,51,=
+102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; "rate": 12.5</span><br><span style=3D"color: =
+rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; },</span><br><span style=3D"color: rgb(0,51,102);"=
+>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; {</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; "currency": "RUB",</span><br><span style=3D"color: rgb(0,51,102);">=
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; "rate": 10</span><br><span style=3D"color: rgb(0,51,=
+102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; }</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ]</span><br><s=
+pan style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; }</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ],</span><br><span style=3D"color: rgb(0,=
+51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "allowedSums": [</span>=
+<br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; {</span><br><span style=3D"color: rgb(0,51,102);">&n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "curren=
+cy": "KGS",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "minimumSum": 10000,=
+</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "maximumSum": null,</span><br><=
+span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; "minimumAddSum": null,</span><br><span styl=
+e=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; "maximumAddSum": null,</span><br><span style=3D"colo=
+r: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; "minimumBalance": null,</span><br><span style=3D"color: rgb(0=
+,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; "nonDeductibleBalancePercentage": 0</span><br><span style=3D"color: r=
+gb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</=
+span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; {</span><br><span style=3D"color: rgb(0,51,102)=
+;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "c=
+urrency": "USD",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class=3D"=
+inline-comment-marker" data-ref=3D"45fc9004-fba7-4797-ac88-a558f855c652">"m=
+inimumSum": 1000,</span></span><br><span style=3D"color: rgb(0,51,102);"><s=
+pan class=3D"inline-comment-marker" data-ref=3D"45fc9004-fba7-4797-ac88-a55=
+8f855c652">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; "maximumSum": null,</span></span><br><span style=3D"color: rgb(0,51,1=
+02);"><span class=3D"inline-comment-marker" data-ref=3D"45fc9004-fba7-4797-=
+ac88-a558f855c652">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; "minimumAddSum": null,</span></span><br><span style=3D"color:=
+ rgb(0,51,102);"><span class=3D"inline-comment-marker" data-ref=3D"45fc9004=
+-fba7-4797-ac88-a558f855c652">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; "maximumAddSum": null,</span></span><br><span styl=
+e=3D"color: rgb(0,51,102);"><span class=3D"inline-comment-marker" data-ref=
+=3D"45fc9004-fba7-4797-ac88-a558f855c652">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "minimumBalance": null,</span></span><=
+br><span style=3D"color: rgb(0,51,102);"><span class=3D"inline-comment-mark=
+er" data-ref=3D"45fc9004-fba7-4797-ac88-a558f855c652">&nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "nonDeductibleBalancePerce=
+ntage": 0</span></span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</span><br><span style=3D"co=
+lor: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ],</span><br=
+><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; "payPeriod": "Term",</span><br><span style=3D"color: rgb(0,51,102);">=
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "penalty": 0,</span><br><span sty=
+le=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "add=
+Fee": true,</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; "fullWithdrawal": false,</span><br><span style=
+=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "perce=
+ntWithdrawal": false,</span><br><span style=3D"color: rgb(0,51,102);">&nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "canCloseOnline": true</span><br><span=
+ style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; },</span></p><=
+p><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; ]</span><br><span sty=
+le=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "code": 0,</span><br><span style=
+=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "message": "Success"</span><br><sp=
+an style=3D"color: rgb(0,51,102);">}</span></p><p><br></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>&nbsp;</strong></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,=
+102);">&nbsp;</span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>&nbsp;</strong></p></td>
+<td colspan=3D"2" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,=
+102);">&nbsp;</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><strong><u>=D0=9C=D0=BE=D0=B4=D0=B5=D0=BB=D1=8C =D0=BF=D1=80=D0=BE=D0=B4=
+=D1=83=D0=BA=D1=82=D0=B0 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</=
+u></strong></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9F=D0=B0=D1=80=D0=B0=D0=BC=D0=B5=
+=D1=82=D1=80</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>=D0=97=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=
+=D0=B8=D0=B5</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>product</p></td>
+<td class=3D"confluenceTd"><p>=D0=9D=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=D0=B8=D0=
+=B5 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>depositCode</p></td>
+<td class=3D"confluenceTd"><p>=D0=9A=D0=BE=D0=B4 =D0=B4=D0=B5=D0=BF=D0=BE=
+=D0=B7=D0=B8=D1=82=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>depositType</p></td>
+<td class=3D"confluenceTd"><p>=D0=A2=D0=B8=D0=BF =D0=B4=D0=B5=D0=BF=D0=BE=
+=D0=B7=D0=B8=D1=82=D0=B0 (=D0=9E=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD / =D0=9E=D1=
+=84=D1=84=D0=BB=D0=B0=D0=B9=D0=BD / =D0=90=D1=80=D1=85=D0=B8=D0=B2) =D0=90=
+=D1=80=D1=85=D0=B8=D0=BC - =D1=81=D1=82=D0=B0=D1=80=D1=8B=D0=B9 =D0=BF=D1=
+=80=D0=BE=D0=B4=D1=83=D0=BA=D1=82 =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=
+=B9 =D1=83=D0=B6=D0=B5 =D0=BD=D0=B5 =D0=BF=D0=BE=D0=B4=D0=B4=D0=B5=D1=80=D0=
+=B6=D0=B8=D0=B2=D0=B0=D0=B5=D1=82=D1=81=D1=8F</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Periods</strong> [ ]</p></td>
+<td class=3D"confluenceTd"><p>=D0=9C=D0=B0=D1=81=D1=81=D0=B8=D0=B2 =D0=BF=
+=D0=B5=D1=80=D0=B8=D0=BE=D0=B4=D0=BE=D0=B2</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>AllowedSums</strong> [ ]</p></td>
+<td class=3D"confluenceTd"><p>=D0=A1=D0=BF=D0=B8=D1=81=D0=BE=D0=BA =D0=B4=
+=D0=BE=D0=BF=D1=83=D1=81=D1=82=D0=B8=D0=BC=D1=8B=D1=85 =D1=81=D1=83=D0=BC=
+=D0=BC</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>payPeriod</p></td>
+<td class=3D"confluenceTd"><p>=D0=9F=D0=B5=D1=80=D0=B8=D0=BE=D0=B4 =D0=B2=
+=D1=8B=D0=BF=D0=BB=D0=B0=D1=82=D1=8B =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D0=BD=
+=D1=82=D0=BE=D0=B2 (Month - =D0=9A=D0=B0=D0=B6=D0=B4=D1=8B=D0=B9 1 =D0=BC=
+=D0=B5=D1=81=D1=8F=D1=86 =D0=B8 =D0=B2 =D0=B4=D0=B5=D0=BD=D1=8C =D0=BE=D0=
+=BA=D0=BE=D0=BD=D1=87=D0=B0=D0=BD=D0=B8=D1=8F, =D1=81=D0=B4=D0=B2=D0=B8=D0=
+=B3 =D0=B2=D0=BF=D0=B5=D1=80=D1=91=D0=B4 / Term&nbsp; - =D0=92 =D0=BA=D0=BE=
+=D0=BD=D1=86=D0=B5 =D1=81=D1=80=D0=BE=D0=BA=D0=B0)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>penalty</p></td>
+<td class=3D"confluenceTd"><p>=D0=92=D0=BE=D0=B7=D0=BD=D0=B0=D0=B3=D1=80=D0=
+=B0=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BF=D0=BE =D1=88=D1=82=D1=80=D0=
+=B0=D1=84=D0=BD=D0=BE=D0=B9 =D1=81=D1=82=D0=B0=D0=B2=D0=BA=D0=B5 ("0% =D0=
+=BE=D1=82 =D1=81=D1=83=D0=BC=D0=BC=D1=8B =D0=B2=D0=BE=D0=B7=D0=BD=D0=B0=D0=
+=B3=D1=80=D0=B0=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F - =D0=BF=D0=BE=D0=BB=D0=
+=BD=D0=BE=D1=81=D1=82=D1=8C=D1=8E =D1=81=D0=B3=D0=BE=D1=80=D0=B0=D0=B5=D1=
+=82)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>addFee</p></td>
+<td class=3D"confluenceTd"><p>=D0=92=D0=BE=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=
+=BE=D1=81=D1=82=D1=8C =D0=B4=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D0=
+=B5=D0=BB=D1=8C=D0=BD=D0=BE=D0=B3=D0=BE =D0=B2=D0=B7=D0=BD=D0=BE=D1=81=D0=
+=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>fullWithdrawal</p></td>
+<td class=3D"confluenceTd"><p>=D0=9F=D1=80=D0=BE=D0=BC=D0=B5=D0=B6=D1=83=D1=
+=82=D0=BE=D1=87=D0=BD=D0=BE=D0=B5 =D0=B8=D0=B7=D1=8A=D1=8F=D1=82=D0=B8=D0=
+=B5 =D1=81=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B2 (=D1=87=D0=B0=D1=81=D1=82=D0=
+=B8=D1=87=D0=BD=D0=BE=D0=B5 =D1=81=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D1=81 =D0=
+=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>percentWithdrawal</p></td>
+<td class=3D"confluenceTd"><p>=D0=92=D1=8B=D0=BF=D0=BB=D0=B0=D1=82=D0=B0 =
+=D0=BF=D1=80=D0=BE=D1=86=D0=B5=D0=BD=D1=82=D0=BE=D0=B2: true - =D0=BA=D0=B0=
+=D0=B6=D0=B4=D1=8B=D0=B9 =D0=BC=D0=B5=D1=81=D1=8F=D1=86, false =E2=80=93 =
+=D0=B2 =D0=BA=D0=BE=D0=BD=D1=86=D0=B5 =D0=BF=D0=B5=D1=80=D0=B8=D0=BE=D0=B4=
+=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>canCloseOnline</p></td>
+<td class=3D"confluenceTd"><p>=D0=92=D0=BE=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=
+=BE=D1=81=D1=82=D1=8C =D0=B7=D0=B0=D0=BA=D1=80=D1=8B=D1=82=D1=8C Online</p>=
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<tbody>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd"><p><strong>Periods</strong></p></t=
+d>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Month</p></td>
+<td class=3D"confluenceTd"><p>=D0=9C=D0=B5=D1=81=D1=8F=D1=86</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Currency</p></td>
+<td class=3D"confluenceTd"><p>=D0=92=D0=B0=D0=BB=D1=8E=D1=82=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Rate</p></td>
+<td class=3D"confluenceTd"><p>=D0=9F=D1=80=D0=BE=D1=86=D0=B5=D0=BD=D1=82=D0=
+=BD=D0=B0=D1=8F =D1=81=D1=82=D0=B0=D0=B2=D0=BA=D0=B0</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<tbody>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd"><p><strong>AllowedSums</strong></p=
+></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Currency</p></td>
+<td class=3D"confluenceTd"><p>=D0=92=D0=B0=D0=BB=D1=8E=D1=82=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>minimumSum</p></td>
+<td class=3D"confluenceTd"><p>=D0=9C=D0=B8=D0=BD=D0=B8=D0=BC=D0=B0=D0=BB=D1=
+=8C=D0=BD=D0=B0=D1=8F =D1=81=D1=83=D0=BC=D0=BC=D0=B0 =D0=B4=D0=BB=D1=8F =D0=
+=BE=D1=82=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D1=8F =D0=B4=D0=B5=D0=BF=D0=BE=D0=
+=B7=D0=B8=D1=82=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>maximumSum</p></td>
+<td class=3D"confluenceTd"><p>=D0=9C=D0=B0=D0=BA=D1=81=D0=B8=D0=BC=D0=B0=D0=
+=BB=D1=8C=D0=BD=D0=B0=D1=8F =D1=81=D1=83=D0=BC=D0=BC=D0=B0 =D0=B4=D0=BB=D1=
+=8F =D0=BE=D1=82=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D1=8F =D0=B4=D0=B5=D0=BF=D0=
+=BE=D0=B7=D0=B8=D1=82=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>minimumAddSum</p></td>
+<td class=3D"confluenceTd"><p>=D0=9C=D0=B8=D0=BD=D0=B8=D0=BC=D0=B0=D0=BB=D1=
+=8C=D0=BD=D0=B0=D1=8F =D1=81=D1=83=D0=BC=D0=BC=D0=B0 =D0=B4=D0=BB=D1=8F =D0=
+=BF=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F =D0=B4=D0=B5=D0=
+=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>maximumAddSum</p></td>
+<td class=3D"confluenceTd"><p>=D0=9C=D0=B0=D0=BA=D1=81=D0=B8=D0=BC=D0=B0=D0=
+=BB=D1=8C=D0=BD=D0=B0=D1=8F =D1=81=D1=83=D0=BC=D0=BC=D0=B0 =D0=B4=D0=BB=D1=
+=8F =D0=BF=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F =D0=B4=D0=
+=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>minimumBalance</p></td>
+<td class=3D"confluenceTd"><p>=D0=9D=D0=B5=D1=81=D0=BD=D0=B8=D0=B6=D0=B0=D0=
+=B5=D0=BC=D1=8B=D0=B9 =D0=BE=D1=81=D1=82=D0=B0=D1=82=D0=BE=D0=BA =D0=BF=D0=
+=BE =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=83</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>nonDeductibleBalancePercentage</p></td>
+<td class=3D"confluenceTd"><p>=D0=9C=D0=B0=D0=BA=D1=81=D0=B8=D0=BC=D0=B0=D0=
+=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D0=BD=D1=82 =D1=
+=81=D0=BD=D1=8F=D1=82=D0=B8=D1=8F =D0=BE=D1=82 =D0=B4=D0=BE=D1=81=D1=82=D1=
+=83=D0=BF=D0=BD=D0=BE=D0=B3=D0=BE =D0=BE=D1=81=D1=82=D0=B0=D1=82=D0=BA=D0=
+=B0 =D0=BF=D0=BE =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=83&nbsp;</p>=
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<tbody>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A1=D1=82=D0=B0=D1=82=D1=83=D1=81</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A2=D0=B5=D0=BA=D1=81=D1=82</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5</strong></p></t=
+d>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">0</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">Success</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=A3=D1=81=D0=BF=D0=B5=D1=88=D0=
+=BD=D0=BE</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">501</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">Ocurred unhandled exception</span>=
+</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=92=D0=BD=D1=83=D1=82=D1=80=D0=
+=B5=D0=BD=D0=BD=D1=8F=D1=8F =D0=BE=D1=88=D0=B8=D0=B1=D0=BA=D0=B0</span></p>=
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-5.=D0=9E=D1=
+=82=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=B5=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=
+=D1=82=D0=B0"><strong>5. =D0=9E=D1=82=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=B5 =
+=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</strong></h2>
+<div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"width: 67.=
+0872%;">
+<colgroup>
+<col style=3D"width: 16.2032%;">
+<col style=3D"width: 83.7981%;">
+</colgroup>
+<tbody>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd"><p><strong>=D0=9E=D1=82=D0=BA=D1=
+=80=D1=8B=D1=82=D0=B8=D0=B5 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=
+=B0 =D1=87=D0=B5=D1=80=D0=B5=D0=B7 =D0=BE=D1=87=D0=B5=D1=80=D0=B5=D0=B4=D1=
+=8C</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9E=D1=87=D0=B5=D1=80=D0=B5=D0=B4=
+=D1=8C:</strong></p></td>
+<td class=3D"confluenceTd"><p>=D0=BE=D1=87=D0=B5=D1=80=D0=B5=D0=B4=D1=8C =
+=D0=93=D0=A2=D0=A1 deposit.create.request.queue</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=
+=D0=B8=D0=B5</strong></p></td>
+<td class=3D"confluenceTd"><p>=D0=9F=D1=80=D0=B8 =D1=81=D0=BE=D0=B7=D0=B4=
+=D0=B0=D0=BD=D0=B8=D0=B8 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0 =
+=D0=BF=D0=BE=D0=BB=D0=B5 <code>account</code> =D0=BC=D0=BE=D0=B6=D0=B5=D1=
+=82 =D0=B1=D1=8B=D1=82=D1=8C =D1=83=D0=BA=D0=B0=D0=B7=D0=B0=D0=BD=D0=BE, =
+=D0=BD=D0=BE =D0=BD=D0=B5 =D0=BE=D0=B1=D1=8F=D0=B7=D0=B0=D1=82=D0=B5=D0=BB=
+=D1=8C=D0=BD=D0=BE:</p>
+<ol>
+<li><p><strong>=D0=95=D1=81=D0=BB=D0=B8 <code>account</code> =D0=BF=D0=B5=
+=D1=80=D0=B5=D0=B4=D0=B0=D0=BD:</strong></p>
+<ul>
+<li>=D0=A1=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B2=D0=B0 =D0=B1=D1=83=D0=B4=D1=
+=83=D1=82 =D1=81=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D1=8B =D1=81 =D1=83=D0=BA=D0=
+=B0=D0=B7=D0=B0=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D1=81=D1=87=D0=B5=D1=82=D0=
+=B0 <code>DebitAccount</code> =D0=B8=D0=BB=D0=B8 =D1=81 =D1=82=D1=80=D0=B0=
+=D0=BD=D0=B7=D0=B8=D1=82=D0=BD=D0=BE=D0=B3=D0=BE =D1=81=D1=87=D0=B5=D1=82=
+=D0=B0.</li>
+<li><code>account</code> =D0=B1=D1=83=D0=B4=D0=B5=D1=82 =D0=B8=D1=81=D0=BF=
+=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D1=8C=D1=81=D1=8F =D0=B2 =
+=D0=BA=D0=B0=D1=87=D0=B5=D1=81=D1=82=D0=B2=D0=B5 =D0=BF=D1=80=D0=B8=D0=B2=
+=D1=8F=D0=B7=D0=B0=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D1=81=D1=87=D0=B5=D1=82=
+=D0=B0 =D0=B4=D0=BB=D1=8F =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0.=
+</li>
+</ul></li>
+<li><p><strong>=D0=95=D1=81=D0=BB=D0=B8 <code>account</code> =D0=BD=D0=B5 =
+=D0=BF=D0=B5=D1=80=D0=B5=D0=B4=D0=B0=D0=BD</strong>:</p>
+<ul>
+<li>=D0=91=D0=B0=D0=BD=D0=BA =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D1=81=D1=82 =D0=
+=BD=D0=BE=D0=B2=D1=8B=D0=B9 =D1=81=D1=87=D0=B5=D1=82.</li>
+<li>=D0=A1=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B2=D0=B0 =D0=B1=D1=83=D0=B4=D1=
+=83=D1=82 =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D1=8B =D1=
+=81 =D1=82=D1=80=D0=B0=D0=BD=D0=B7=D0=B8=D1=82=D0=BD=D0=BE=D0=B3=D0=BE =D1=
+=81=D1=87=D0=B5=D1=82=D0=B0 =D0=BD=D0=B0 =D0=BD=D0=BE=D0=B2=D1=8B=D0=B9 =D1=
+=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D0=B9 =D1=81=D1=87=D0=B5=D1=
+=82.</li>
+<li>=D0=9F=D0=BE=D1=81=D0=BB=D0=B5 =D1=8D=D1=82=D0=BE=D0=B3=D0=BE =D0=B1=D1=
+=83=D0=B4=D0=B5=D1=82 =D0=BE=D1=82=D0=BA=D1=80=D1=8B=D1=82 =D0=B4=D0=B5=D0=
+=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=BD=D1=8B=D0=B9 =D1=81=D1=87=D0=B5=D1=82.</li=
+>
+</ul></li>
+</ol><p><strong>=D0=9F=D1=80=D0=B8 =D1=81=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=
+=B8=D0=B8 =D1=81=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B2 =D1=81 =D0=BA=D0=B0=D1=
+=80=D1=82=D0=BE=D1=87=D0=BD=D0=BE=D0=B3=D0=BE =D1=81=D1=87=D0=B5=D1=82=D0=
+=B0 =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE =D1=83=D0=
+=BA=D0=B0=D0=B7=D0=B0=D1=82=D1=8C =D0=BF=D0=BE=D0=BB=D0=B5 <code>Processing=
+</code>:</strong></p>
+<ul>
+<li>=D0=94=D0=BB=D1=8F Elcard: <code>"Processing": "IPC"</code></li>
+<li>=D0=94=D0=BB=D1=8F Visa: <code>"Processing": "OW4"</code></li>
+</ul><p><strong>=D0=94=D0=BB=D1=8F =D0=BA=D0=BE=D0=BD=D0=B2=D0=B5=D1=80=D1=
+=82=D0=B0=D1=86=D0=B8=D0=B8 =D1=81 =D0=B2=D0=B0=D0=BB=D1=8E=D1=82=D0=BD=D1=
+=8B=D0=BC=D0=B8 =D1=81=D1=87=D0=B5=D1=82=D0=B0=D0=BC=D0=B8 =D0=BD=D0=B5=D0=
+=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE =D0=BE=D1=82=D0=BF=D1=80=D0=
+=B0=D0=B2=D0=BB=D1=8F=D1=82=D1=8C =D1=81=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=
+=89=D0=B8=D0=B5 =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B:</strong><=
+/p>
+<ul>
+<li><code>"amountCredit": 17400</code></li>
+<li><code>"currencyCredit": "KGS"</code></li>
+<li><code>"exchangeRate": 87</code></li>
+<li><code>"isBaseCurrency": true<br></code><br><strong><code>=D0=90=D0=B2=
+=D1=82=D0=BE=D0=BC=D0=B0=D1=82=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=BE=D0=B5 =
+=D0=BF=D1=80=D0=BE=D0=B4=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B4=D0=B5=D0=BF=
+=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</code></strong></li>
+</ul><p>=D0=95=D1=81=D0=BB=D0=B8 =D1=81=D1=80=D0=BE=D0=BA =D0=B4=D0=B5=D0=
+=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0 =D0=B8=D1=81=D1=82=D0=B5=D0=BA=D0=B0=D0=
+=B5=D1=82, =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=B5=D1=82=D1=81=D1=8F =D0=BD=D0=
+=BE=D0=B2=D1=8B=D0=B9 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82 =D1=81 =D1=
+=82=D0=B0=D0=BA=D0=B8=D0=BC=D0=B8 =D0=B6=D0=B5 =D1=83=D1=81=D0=BB=D0=BE=D0=
+=B2=D0=B8=D1=8F=D0=BC=D0=B8. =D0=9D=D0=BE=D0=B2=D1=8B=D0=B9 =D0=B4=D0=B5=D0=
+=BF=D0=BE=D0=B7=D0=B8=D1=82 =D0=B1=D1=83=D0=B4=D0=B5=D1=82 =D0=B8=D0=BC=D0=
+=B5=D1=82=D1=8C =D1=81=D1=82=D0=B0=D1=82=D1=83=D1=81 "ACTUAL", =D0=B0 =D1=
+=81=D1=82=D0=B0=D1=80=D1=8B=D0=B9 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=
+=82 =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D1=82 =D1=81=D1=82=D0=B0=D1=82=D1=
+=83=D1=81 "CARRIED_OVER".</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=A2=D0=B5=D0=BB=D0=BE =D1=81=D0=BE=
+=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F</strong><strong><br>
+ =D0=BF=D1=80=D0=B8 =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=B8=D0=B8 =D0=B4=
+=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0 =D1=81=D0=BE =D1=81=D1=87=D0=B5=
+=D1=82=D0=BE=D0=BC =D1=81=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D1=8F</strong=
+></p></td>
+<td class=3D"confluenceTd"><p>{<br>
+ &nbsp; "system": "main-system",<br>
+ &nbsp; "product": "BACUM",<br>
+ &nbsp; "clientCode": "<span style=3D"color: rgb(0,51,102);">008.158228</sp=
+an>",<br>
+ &nbsp; "applicationId": "4959f7c5-2e37-4c4f-1be8-f4c98e707002",<br>
+ &nbsp; "term": 12,<br>
+ &nbsp; "currency": "KGS",<br>
+ &nbsp; "amount": 200,<br>
+ &nbsp; <span style=3D"color: rgb(255,102,0);">"employeePersNumber": "1664"=
+</span><br>
+ &nbsp; "account": "1250820010289062",<br>
+ &nbsp; "debitAccount": "1250820066991626",<br><span class=3D"hljs-attr">"d=
+ocuments"</span><span class=3D"hljs-punctuation">:</span> <span class=3D"hl=
+js-punctuation">[</span><span class=3D"hljs-string">"a1d1db4c-3c08-47e6-bfe=
+3-2f4cec13dfd9"</span><span class=3D"hljs-punctuation">,</span> <span class=
+=3D"hljs-string">"a1d1db4c-3c08-47e6-bfe3-2f4cec13dfd9"</span><span class=
+=3D"hljs-punctuation">]</span><br>
+ }</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=A2=D0=B5=D0=BB=D0=BE =D1=81=D0=BE=
+=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F<br>
+ =D0=BF=D1=80=D0=B8 =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=B8=D0=B8 =D0=B4=
+=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0<br><br></strong></p></td>
+<td class=3D"confluenceTd"><p>{<br>
+ &nbsp; "system": "main-system",<br>
+ &nbsp; "product": "BACUM",<br>
+ &nbsp; "clientCode": "<span style=3D"color: rgb(0,51,102);">008.158228</sp=
+an>",<br>
+ &nbsp; "applicationId": "4959f7c5-2e37-4c4f-1be8-f4c98e707002",<br>
+ &nbsp; "term": 12,<br>
+ &nbsp; "currency": "KGS",<br>
+ &nbsp; "amount": 200,<br><span style=3D"color: rgb(255,102,0);">&nbsp; "em=
+ployeePersNumber": "1664"</span><br>
+ &nbsp; "account": "1250820010289062",</p><p><span class=3D"hljs-attr">"doc=
+uments"</span><span class=3D"hljs-punctuation">:</span> <span class=3D"hljs=
+-punctuation">[</span><span class=3D"hljs-string">"a1d1db4c-3c08-47e6-bfe3-=
+2f4cec13dfd9"</span><span class=3D"hljs-punctuation">,</span> <span class=
+=3D"hljs-string">"a1d1db4c-3c08-47e6-bfe3-2f4cec13dfd9"</span><span class=
+=3D"hljs-punctuation">]</span><br>
+ }</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=A2=D0=B5=D0=BB=D0=BE =D1=81=D0=BE=
+=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F<br>
+ =D0=BF=D1=80=D0=B8 =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=B8=D0=B8 =D0=B4=
+=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0<br>
+ =D1=81 =D0=BA=D0=BE=D0=BD=D0=B2=D0=B5=D1=80=D1=82=D0=B0=D1=86=D0=B8=D0=B5=
+=D0=B9</strong></p></td>
+<td class=3D"confluenceTd"><p>{<br>
+ "system": "main-system",<br>
+ "product": "BACUM",<br>
+ "clientCode": "<span style=3D"color: rgb(0,51,102);">008.158228</span>",<b=
+r>
+ "applicationId": "4959f7c5-2e37-4c4f-1be8-f4c98e707004",<br>
+ "term": 12,<br>
+ "currency": "USD",<br>
+ "amount": 200,<br>
+ "account": "1250820066956361",<br>
+ "debitAccount": "1250820166980337",<br>
+ "amountCredit": 17400,<br>
+ "currencyCredit": "KGS",<br>
+ "exchangeRate": 87,<br><span style=3D"color: rgb(255,102,0);">"employeePer=
+sNumber": "1664"</span><br>
+ "isBaseCurrency": true,<br>
+ "processing": "OW4",<br><span class=3D"hljs-attr">"documents"</span><span =
+class=3D"hljs-punctuation">:</span> <span class=3D"hljs-punctuation">[</spa=
+n><span class=3D"hljs-string">"a1d1db4c-3c08-47e6-bfe3-2f4cec13dfd9"</span>=
+<span class=3D"hljs-punctuation">,</span> <span class=3D"hljs-string">"a1d1=
+db4c-3c08-47e6-bfe3-2f4cec13dfd9"</span><span class=3D"hljs-punctuation">]<=
+/span><br>
+ }</p></td>
+</tr>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd"><p><strong>=D0=9E=D0=BF=D0=B8=D1=
+=81=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BF=D0=BE=D0=BB=D0=B5=D0=B9</strong></p></td=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>ClientCode</strong></p></td>
+<td class=3D"confluenceTd"><p>=D0=98=D0=B4=D0=B5=D0=BD=D1=82=D0=B8=D1=84=D0=
+=B8=D0=B0=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=BD=D1=8B=D0=B9 =D0=BD=D0=BE=D0=
+=BC=D0=B5=D1=80 =D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D0=B0 =D0=B2 =D0=B1=D0=
+=B0=D0=BD=D0=BA=D0=B5</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>ApplicationId</strong></p></td>
+<td class=3D"confluenceTd"><p>=D0=98=D0=B4=D0=B5=D0=BD=D1=82=D0=B8=D1=84=D0=
+=B8=D0=BA=D0=B0=D1=82=D0=BE=D1=80 =D0=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D0=
+=B0 =D0=BD=D0=B0 =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=B8=D0=B5 =D0=B4=D0=
+=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Product</strong></p></td>
+<td class=3D"confluenceTd"><p>=D0=9F=D1=80=D0=BE=D0=B4=D1=83=D0=BA=D1=82 =
+=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0 (=D0=BC=D0=BE=D0=B6=D0=BD=
+=D0=BE =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D1=82=D1=8C =D0=BF=D0=BE =D0=B0=
+=D0=BF=D0=B8 =D0=BF=D1=80=D0=BE=D0=B4=D1=83=D0=BA=D1=82=D0=BE=D0=B2)</p></t=
+d>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=A1urrency</strong></p></td>
+<td class=3D"confluenceTd"><p>=D0=92=D0=B0=D0=BB=D1=8E=D1=82=D0=B0 =D0=B4=
+=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0 (=D0=BA=D0=BE=D0=B3=D0=B4=D0=B0 =
+=D0=BD=D0=B5 =D0=BF=D0=B5=D1=80=D0=B5=D0=B4=D0=B0=D0=B5=D1=82=D1=81=D1=8F =
+=D0=BF=D0=BE=D0=BB=D0=B5 <strong>currencyCredit</strong>)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Term</strong></p></td>
+<td class=3D"confluenceTd"><p>=D0=A1=D1=80=D0=BE=D0=BA =D0=B4=D0=B5=D0=BF=
+=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Amount</strong></p></td>
+<td class=3D"confluenceTd"><p>=D0=A1=D1=83=D0=BC=D0=BC=D0=B0 =D0=BF=D0=BE=
+=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Account</strong></p></td>
+<td class=3D"confluenceTd"><p>=D0=A1=D1=87=D0=B5=D1=82 =D0=BF=D1=80=D0=B8=
+=D0=B2=D1=8F=D0=B7=D0=BA=D0=B8</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Processing</strong></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;=D0=9F=D1=80=D0=BE=D1=86=D0=B5=D1=81=D1=
+=81=D0=B8=D0=BD=D0=B3</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,102);"><strong=
+>DebitAccount</strong></span></p></td>
+<td class=3D"confluenceTd"><p>=D0=A1=D1=87=D0=B5=D1=82 =D1=81=D0=BF=D0=B8=
+=D1=81=D0=B0=D0=BD=D0=B8=D1=8F</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>amountCredit</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>=D0=A1=D1=83=D0=BC=D0=BC=D0=B0 =D1=81=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=
+=B8=D1=8F (=D0=B5=D1=81=D0=BB=D0=B8 isBaseCurrency=3D true, =D1=82=D0=BE am=
+ount*exchangeRate, =D0=B8=D0=BD=D0=B0=D1=87=D0=B5 amount/exchangeRate)</p><=
+/td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>isBaseCurrency</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>=D0=A4=D0=BB=D0=B0=D0=B3 =D0=B1=D0=B0=D0=B7=D0=BE=D0=B2=D0=BE=D0=B3=D0=
+=BE =D0=BA=D1=83=D1=80=D1=81=D0=B0 =D1=82=D1=80=D0=B0=D0=BD=D0=B7=D0=B0=D0=
+=BA=D1=86=D0=B8=D0=B8 (true / false)</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>exchangeRate</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>=D0=9A=D1=83=D1=80=D1=81 =D0=BE=D0=B1=D0=BC=D0=B5=D0=BD=D0=B0</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong><span style=3D"color: rgb(255,102,0);">employeePersNumber</span>=
+</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(255,102,0);">=D0=A2=D0=B0=D0=B1=D0=B5=D0=BB=D1=
+=8C=D0=BD=D1=8B=D0=B9 =D0=BD=D0=BE=D0=BC=D0=B5=D1=80 =D1=81=D0=BE=D1=82=D1=
+=80=D1=83=D0=B4=D0=BD=D0=B8=D0=BA=D0=B0, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=
+=8B=D0=B9 =D0=BE=D0=BA=D0=B0=D0=B7=D0=B0=D0=BB =D0=BF=D0=BE=D0=BC=D0=BE=D1=
+=89=D1=8C =D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D1=83 (=D1=82=D0=BE=D0=BB=D1=
+=8C=D0=BA=D0=BE =D0=B2 =D1=82=D0=B5=D1=81=D1=82=D0=B5)</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>currencyCredit</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>=D0=92=D0=B0=D0=BB=D1=8E=D1=82=D0=B0 =D1=81=D0=BF=D0=B8=D1=81=D0=B0=D0=
+=BD=D0=B8=D1=8F (=D0=B5=D1=81=D0=BB=D0=B8 =D0=B4=D0=B0=D0=BD=D0=BD=D0=BE=D0=
+=B5 =D0=BF=D0=BE=D0=BB=D0=B5 =D0=BF=D0=B5=D1=80=D0=B5=D0=B4=D0=B0=D0=BD=D0=
+=BE =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D1=81=D1=82=D1=81=D1=8F =D0=B4=D0=B5=D0=
+=BF=D0=BE=D0=B7=D0=B8=D1=82 =D0=BF=D0=BE =D0=BF=D0=BE=D0=BB=D1=8E <strong>c=
+urrencyCredit</strong>)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>System</strong></p></td>
+<td class=3D"confluenceTd"><p style=3D"text-align: left;">=D0=9D=D0=B0=D0=
+=B8=D0=BC=D0=B5=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D1=81=D0=B8=D1=
+=81=D1=82=D0=B5=D0=BC=D1=8B.<br>
+ =D0=92 =D0=B7=D0=B0=D0=B2=D0=B8=D1=81=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=B8 =
+=D0=BE=D1=82 =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC=D1=8B =D0=BE=D1=82=D0=B2=
+=D0=B5=D1=82<br>
+ =D0=B1=D1=83=D0=B4=D0=B5=D1=82 =D0=BF=D0=BE=D0=BC=D0=B5=D1=89=D1=91=D0=BD =
+=D0=B2 =D1=81=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=B2=D1=83=
+=D1=8E=D1=89=D1=83=D1=8E =D0=BE=D1=87=D0=B5=D1=80=D0=B5=D0=B4=D1=8C<strong>=
+.</strong></p><p style=3D"text-align: left;">=D0=A1=D0=BF=D1=80=D0=B0=D0=B2=
+=D0=BE=D1=87=D0=BD=D0=B8=D0=BA =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC =D0=B8 =
+=D0=BE=D1=87=D0=B5=D1=80=D0=B5=D0=B4=D0=B5=D0=B9 =D1=83=D0=BA=D0=B0=D0=B7=
+=D0=B0=D0=BD =D0=BD=D0=B8=D0=B6=D0=B5.<br>
+ =D0=92 =D1=81=D0=BB=D1=83=D1=87=D0=B0=D0=B8 =D0=BD=D0=B5=D0=B2=D0=B5=D1=80=
+=D0=BD=D0=BE =D1=83=D0=BA=D0=B0=D0=B7=D0=B0=D0=BD=D0=BD=D0=BE=D0=B9 =D1=81=
+=D0=B8=D1=81=D1=82=D0=B5=D0=BC=D1=8B =D0=BE=D1=82=D0=B2=D0=B5=D1=82 =D0=B1=
+=D1=83=D0=B4=D0=B5=D1=82 =D0=BF=D0=BE=D0=BC=D0=B5=D1=89=D1=91=D1=82 =D0=B2 =
+=D0=BE=D1=87=D0=B5=D1=80=D0=B5=D0=B4=D1=8C&nbsp;<strong>feedback-deposit-cr=
+eate-queue-error.</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong><span class=3D"hljs-attr">documents</=
+span></strong></p></td>
+<td class=3D"confluenceTd"><p>=D0=B8=D0=B4=D0=B5=D0=BD=D1=82=D0=B8=D1=84=D0=
+=B8=D0=BA=D0=B0=D1=82=D0=BE=D1=80=D1=8B =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=
+=B5=D0=BD=D1=82=D0=BE=D0=B2</p></td>
+</tr>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd"><p><strong>FeedBack</strong></p></=
+td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9E=D1=87=D0=B5=D1=80=D0=B5=D0=B4=
+=D1=8C</strong></p></td>
+<td class=3D"confluenceTd"><p>feedback-deposit-create-queue-main-system</p>=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=A2=D0=B5=D0=BB=D0=BE =D1=83=D1=81=
+=D0=BF=D0=B5=D1=88=D0=BD=D0=BE=D0=B3=D0=BE =D0=BE=D1=82=D0=B2=D0=B5=D1=82=
+=D0=B0</strong><strong>:</strong></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,102);">{</span=
+><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "Data": {</span><b=
+r><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; "Applic=
+ationId": "4be676fb-1121-45ae-8ef9-ff1f22d4d0bd",</span><br><span style=3D"=
+color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; "DepositNumber": "150569=
+280",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; =
+&nbsp; "Branch": "1096",</span><br><span style=3D"color: rgb(0,51,102);">&n=
+bsp; &nbsp; &nbsp; &nbsp; "DepositAccount": "1250320026520018",</span><br><=
+span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; "Account":=
+ "1250320026519917"</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; =
+&nbsp; },</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "Co=
+de": 0,</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "Mess=
+age": "Success"</span><br><span style=3D"color: rgb(0,51,102);">}</span></p=
+></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=A2=D0=B5=D0=BB=D0=BE =D0=BD=D0=B5=
+ =D1=83=D1=81=D0=BF=D0=B5=D1=88=D0=BD=D0=BE=D0=B3=D0=BE =D0=BE=D1=82=D0=B2=
+=D0=B5=D1=82=D0=B0</strong></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,102);">{</span=
+><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "Data": {</span><b=
+r><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; "Applic=
+ationId": "66a6d478-9949-4c59-9109-3b2867dec0f9"</span><br><span style=3D"c=
+olor: rgb(0,51,102);">&nbsp; &nbsp; },</span><br><span style=3D"color: rgb(=
+0,51,102);">&nbsp; &nbsp; "Code": 501,</span><br><span style=3D"color: rgb(=
+0,51,102);">&nbsp; &nbsp; "Message": "Error create deposit"</span><br><span=
+ style=3D"color: rgb(0,51,102);">}</span></p><p><span style=3D"color: rgb(0=
+,51,102);">&nbsp;</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<thead>
+<tr>
+<th style=3D"text-align: left;vertical-align: top;" colspan=3D"2" class=3D"=
+confluenceTh"><span style=3D"color: rgb(0,51,102);">System</span></th>
+</tr>
+</thead>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+odengi</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<span style=3D"color: rgb(0,51,102);">feedback-deposit-create-queue-odengi<=
+/span></th>
+</tr>
+<tr>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<span style=3D"color: rgb(23,43,77);">notification_service</span></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<span style=3D"color: rgb(0,51,102);">feedback-deposit-create-queue-n<span =
+style=3D"color: rgb(23,43,77);">otification_service</span></span></th>
+</tr>
+<tr>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<span style=3D"color: rgb(23,43,77);">green_crm&nbsp;</span></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<span style=3D"color: rgb(0,51,102);">feedback-deposit-create-queue-<span s=
+tyle=3D"color: rgb(23,43,77);">green_crm</span></span></th>
+</tr>
+<tr>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<span style=3D"color: rgb(23,43,77);">loan_conductor</span></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<span style=3D"color: rgb(0,51,102);">feedback-deposit-create-queue-<span s=
+tyle=3D"color: rgb(23,43,77);">loan_conductor</span></span></th>
+</tr>
+<tr>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+pams</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<span style=3D"color: rgb(0,51,102);">feedback-deposit-create-queue-pams</s=
+pan></th>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"width: 75.=
+9237%;">
+<colgroup>
+<col style=3D"width: 6.68807%;">
+<col style=3D"width: 24.1306%;">
+<col style=3D"width: 37.1322%;">
+<col style=3D"width: 32.0492%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A1=D1=82=D0=B0=D1=82=D1=83=D1=81</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A2=D0=B5=D0=BA=D1=81=D1=82</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5</strong></p></t=
+d>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A2=D0=B5=D0=BA=D1=81=D1=82 =D0=B0=D0=BB=D0=B5=D1=80=D1=82=D0=
+=B0 =D0=BF=D1=80=D0=B8 =D0=BD=D0=B0=D0=B6=D0=B0=D1=82=D0=B8=D0=B8 =D0=BD=D0=
+=B0 =D1=8F=D1=87=D0=B5=D0=B9=D0=BA=D1=83 =D0=B2 =D0=9E!Bank (productType =
+=3D declined)</strong></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">0</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">Success</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=A3=D1=81=D0=BF=D0=B5=D1=88=D0=
+=BD=D0=BE</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">&nbsp;-</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">501</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">Error create deposit</span></p></t=
+d>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=92=D0=BD=D1=83=D1=82=D1=80=D0=
+=B5=D0=BD=D0=BD=D1=8F=D1=8F =D0=BE=D1=88=D0=B8=D0=B1=D0=BA=D0=B0</span></p>=
+</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">&nbsp;</span><strong>=D0=A7=D1=82=
+=D0=BE-=D1=82=D0=BE =D0=BF=D0=BE=D1=88=D0=BB=D0=BE =D0=BD=D0=B5 =D1=82=D0=
+=B0=D0=BA<br></strong><span>=D0=9F=D0=BE=D0=BF=D1=80=D0=BE=D0=B1=D1=83=D0=
+=B9=D1=82=D0=B5 =D0=BE=D1=82=D0=BA=D1=80=D1=8B=D1=82=D1=8C =D0=B4=D0=B5=D0=
+=BF=D0=BE=D0=B7=D0=B8=D1=82 =D0=B5=D1=89=D1=91 =D1=80=D0=B0=D0=B7</span></p=
+></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">404</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=A1lient not found</span></p></=
+td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=
+=82 =D0=BD=D0=B5 =D0=BD=D0=B0=D0=B9=D0=B4=D0=B5=D0=BD</span></p></td>
+<td class=3D"confluenceTd"><p><strong>=D0=9F=D0=BE=D0=BF=D1=80=D0=BE=D0=B1=
+=D1=83=D0=B9=D1=82=D0=B5 =D0=BE=D1=82=D0=BA=D1=80=D1=8B=D1=82=D1=8C =D0=B4=
+=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82 =D0=B5=D1=89=D1=91 =D1=80=D0=B0=D0=B7<=
+/strong></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">400</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<pre class=3D"msg-payload">Incorrect format of request</pre><p><span style=
+=3D"color: rgb(0,51,102);">&nbsp;</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=9D=D0=B5 =D0=BA=D0=BE=D1=80=D0=
+=B5=D0=BA=D1=82=D0=BD=D1=8B=D0=B9 =D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=82 =D0=
+=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D0=B0<br>
+ (=D1=82=D0=B0=D0=BA=D0=B6=D0=B5 =D0=BF=D1=80=D0=B8=D0=B4=D0=B5=D1=82 =D1=
+=8D=D1=82=D0=BE=D1=82 =D0=BE=D1=82=D0=B2=D0=B5=D1=82 =D0=BF=D1=80=D0=B8 =D0=
+=BE=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=BA=D0=B5 =D0=BE=D1=82=D1=80=D0=B8=D1=
+=86=D0=B0=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE=D0=B9 =D1=81=D1=83=D0=BC=D0=
+=BC=D1=8B)</span></p></td>
+<td class=3D"confluenceTd"><p><strong>=D0=9F=D0=BE=D0=BF=D1=80=D0=BE=D0=B1=
+=D1=83=D0=B9=D1=82=D0=B5 =D0=BE=D1=82=D0=BA=D1=80=D1=8B=D1=82=D1=8C =D0=B4=
+=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82 =D0=B5=D1=89=D1=91 =D1=80=D0=B0=D0=B7<=
+/strong></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">409</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<pre class=3D"msg-payload">Duplicate request</pre><p><span style=3D"color: =
+rgb(0,51,102);">&nbsp;</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=94=D1=83=D0=B1=D0=BB=D0=B8=D1=
+=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D0=B9 =D0=B7=D0=B0=D0=BF=D1=80=D0=
+=BE=D1=81</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">&nbsp;-</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">7007</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Account does not belong to the client</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D1=83=D0=BA=D0=B0=D0=B7=D0=B0=D0=
+=BD =D1=81=D1=87=D0=B5=D1=82 =D0=BD=D0=B5 =D0=BF=D1=80=D0=B8=D0=BD=D0=B0=D0=
+=B4=D0=BB=D0=B5=D0=B6=D0=B0=D1=89=D0=B8=D0=B9 =D1=83=D0=BA=D0=B0=D0=B7=D0=
+=B0=D0=BD=D0=BD=D0=BE=D0=BC=D1=83 =D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D1=
+=83</span></p></td>
+<td class=3D"confluenceTd"><p><strong>=D0=9F=D0=BE=D0=BF=D1=80=D0=BE=D0=B1=
+=D1=83=D0=B9=D1=82=D0=B5 =D0=BE=D1=82=D0=BA=D1=80=D1=8B=D1=82=D1=8C =D0=B4=
+=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82 =D0=B5=D1=89=D1=91 =D1=80=D0=B0=D0=B7<=
+/strong></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">7008</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Insufficient funds</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=9D=D0=B5=D0=B4=D0=BE=D1=81=D1=
+=82=D0=B0=D1=82=D0=BE=D1=87=D0=BD=D0=BE =D1=81=D1=80=D0=B5=D0=B4=D1=81=D1=
+=82=D0=B2</span></p></td>
+<td class=3D"confluenceTd"><p><strong>=D0=9D=D0=B5 =D1=85=D0=B2=D0=B0=D1=82=
+=D0=B0=D0=B5=D1=82 =D0=B4=D0=B5=D0=BD=D0=B5=D0=B3 =D0=BD=D0=B0 =D1=81=D1=87=
+=D1=91=D1=82=D0=B5 =D1=81=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D1=8F</strong=
+><span><br></span><span>=D0=9F=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D0=
+=B5 =D0=B1=D0=B0=D0=BB=D0=B0=D0=BD=D1=81, =D1=87=D1=82=D0=BE=D0=B1=D1=8B =
+=D0=BE=D1=82=D0=BA=D1=80=D1=8B=D1=82=D1=8C =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=
+=D0=B8=D1=82</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">7009</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Monthly limit</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(23,43,77);">=D0=9B=D0=B8=D0=BC=D0=B8=D1=82 =D0=
+=BC=D0=B0=D0=BA=D1=81=D0=B8=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=B3=D0=BE=
+ =D0=BE=D1=81=D1=82=D0=B0=D1=82=D0=BA=D0=B0 =D0=BF=D0=BE =D1=81=D1=87=D0=B5=
+=D1=82=D1=83</span></p></td>
+<td class=3D"confluenceTd"><p><strong>=D0=94=D0=BE=D1=81=D1=82=D0=B8=D0=B3=
+=D0=BD=D1=83=D1=82 =D0=BB=D0=B8=D0=BC=D0=B8=D1=82 =D0=BF=D0=BE =D0=BE=D0=B1=
+=D0=BE=D1=80=D0=BE=D1=82=D1=83 =D0=B4=D0=B5=D0=BD=D0=B5=D0=B3 =D0=B2 =D0=BC=
+=D0=B5=D1=81=D1=8F=D1=86 <br></strong><span>=D0=9F=D0=BE=D0=BF=D1=80=D0=BE=
+=D0=B1=D1=83=D0=B9=D1=82=D0=B5 =D0=B2=D1=8B=D0=B1=D1=80=D0=B0=D1=82=D1=8C =
+=D0=B4=D1=80=D1=83=D0=B3=D0=BE=D0=B9 =D1=81=D1=87=D1=91=D1=82 =D1=81=D0=BF=
+=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D1=8F</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">7010</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+One-time limit of transaction</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>=D0=9B=D0=B8=D0=BC=D0=B8=D1=82 =D0=BD=D0=B0 =D0=B5=D0=B4=D0=B8=D0=BD=D0=
+=BE=D1=80=D0=B0=D0=B7=D0=BE=D0=B2=D1=83=D1=8E =D1=81=D1=83=D0=BC=D0=BC=D1=
+=83 =D1=81=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D1=8F. Code AEI</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A1=D0=BB=D0=B8=D1=88=D0=BA=D0=BE=D0=BC =D0=B1=D0=BE=D0=BB=D1=
+=8C=D1=88=D0=B0=D1=8F =D1=81=D1=83=D0=BC=D0=BC=D0=B0 =D0=B7=D0=B0 =D0=BE=D0=
+=B4=D0=BD=D1=83 =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D1=8E<br></stron=
+g><span>=D0=9F=D0=BE=D0=BF=D1=80=D0=BE=D0=B1=D1=83=D0=B9=D1=82=D0=B5 =D0=BE=
+=D1=82=D0=BA=D1=80=D1=8B=D1=82=D1=8C =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=
+=D1=82 =D1=81 =D0=BC=D0=B5=D0=BD=D1=8C=D1=88=D0=B5=D0=B9 =D1=81=D1=83=D0=BC=
+=D0=BC=D0=BE=D0=B9</span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">7011</td>
+<td class=3D"confluenceTd">Exchange rate conversion operation is not possib=
+le</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>=D0=A3=D0=BA=D0=B0=D0=B7=D0=B0=D0=BD=D1=8B =D0=BD=D0=B5 =D0=B2=D0=B5=D1=
+=80=D0=BD=D1=8B=D0=B5 =D0=BA=D1=83=D1=80=D1=81=D1=8B =D0=B2=D0=B0=D0=BB=D1=
+=8E=D1=82</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>-</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">7012</td>
+<td class=3D"confluenceTd">Incorrect deposit minimum amount</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>=D0=A3=D0=BA=D0=B0=D0=B7=D0=B0=D0=BD=D0=B0 =D0=BD=D0=B5 =D0=B2=D0=B5=D1=
+=80=D0=BD=D0=B0=D1=8F =D1=81=D1=83=D0=BC=D0=BC=D0=B0 =D0=B4=D0=BB=D1=8F =D1=
+=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=B8=D1=8F =D0=B4=D0=B5=D0=BF=D0=BE=D0=
+=B7=D0=B8=D1=82=D0=B0</p></td>
+<td class=3D"confluenceTd"><p><strong>=D0=9C=D0=B8=D0=BD=D0=B8=D0=BC=D0=B0=
+=D0=BB=D1=8C=D0=BD=D0=B0=D1=8F =D1=81=D1=83=D0=BC=D0=BC=D0=B0 =D0=B4=D0=BB=
+=D1=8F =D0=BE=D1=82=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D1=8F: 100 =D1=81 =D0=B8=
+=D0=BB=D0=B8 10 $ <br></strong><span>=D0=9F=D0=BE=D0=BF=D1=80=D0=BE=D0=B1=
+=D1=83=D0=B9=D1=82=D0=B5 =D0=B5=D1=89=D1=91 =D1=80=D0=B0=D0=B7</span></p></=
+td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">7013</td>
+<td class=3D"confluenceTd">Max limit create account</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>=D0=9B=D0=B8=D0=BC=D0=B8=D1=82 =D0=BD=D0=B0 =D1=81=D0=BE=D0=B7=D0=B4=D0=
+=B0=D0=BD=D0=B8=D1=87=D0=B5 =D1=81=D1=87=D0=B5=D1=82=D0=B0</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=94=D0=BE=D1=81=D1=82=D0=B8=D0=B3=D0=BD=D1=83=D1=82 =D0=BB=D0=
+=B8=D0=BC=D0=B8=D1=82 =D0=BD=D0=B0 =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=
+=B8=D0=B5 =D1=81=D1=87=D1=91=D1=82=D0=B0<br></strong><span>=D0=9E=D0=B1=D1=
+=80=D0=B0=D1=82=D0=B8=D1=82=D0=B5=D1=81=D1=8C =D0=B2 =D0=BE=D1=82=D0=B4=D0=
+=B5=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B1=D0=B0=D0=BD=D0=BA=D0=B0</span></p>=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">7014</td>
+<td class=3D"confluenceTd">Client not identified</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>=D0=9A=D0=BB=D0=B8=D0=B5=D0=BD=D1=82 =D0=BD=D0=B5 =D0=B8=D0=B4=D0=B5=D0=
+=BD=D1=82=D0=B8=D1=86=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD</p></td>
+<td class=3D"confluenceTd"><p><strong>=D0=9F=D1=80=D0=BE=D0=B9=D0=B4=D0=B8=
+=D1=82=D0=B5 =D0=B8=D0=B4=D0=B5=D0=BD=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=
+=D1=86=D0=B8=D1=8E</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">7015</td>
+<td class=3D"confluenceTd"><pre>Deposit creation failed: the transaction wa=
+s rolled back.</pre></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>=D0=9E=D1=88=D0=B8=D0=B1=D0=BA=D0=B0 =D0=BF=D1=80=D0=B8 =D1=81=D0=BE=D0=
+=B7=D0=B4=D0=B0=D0=BD=D0=B8=D0=B8 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=
+=82=D0=B0: =D1=82=D1=80=D0=B0=D0=BD=D0=B7=D0=B0=D0=BA=D1=86=D0=B8=D1=8F =D0=
+=B1=D1=8B=D0=BB=D0=B0 =D0=BE=D1=82=D0=BA=D0=B0=D1=82=D0=B0=D0=BD=D0=B0.</p>=
+</td>
+<td class=3D"confluenceTd"><p><strong>&nbsp;</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">7016</td>
+<td class=3D"confluenceTd">Deposit creation failed: the transaction was not=
+ rolled back.</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>=D0=9E=D1=88=D0=B8=D0=B1=D0=BA=D0=B0 =D0=BF=D1=80=D0=B8 =D1=81=D0=BE=D0=
+=B7=D0=B4=D0=B0=D0=BD=D0=B8=D0=B8 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=
+=82=D0=B0: =D1=82=D1=80=D0=B0=D0=BD=D0=B7=D0=B0=D0=BA=D1=86=D0=B8=D1=8F =D0=
+=BD=D0=B5 =D0=BE=D1=82=D0=BA=D0=B0=D1=82=D0=B0=D0=BD=D0=B0.</p></td>
+<td class=3D"confluenceTd"><p><strong>&nbsp;</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">506</td>
+<td class=3D"confluenceTd">AML reject</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>=D0=9E=D1=82=D0=BA=D0=B0=D0=B7=D0=B0=D0=BD=D0=BE AML</p></td>
+<td class=3D"confluenceTd"><p><strong>=D0=9A=D0=BB=D0=B8=D0=B5=D0=BD=D1=82 =
+=D1=8F=D0=B2=D0=BB=D1=8F=D0=B5=D1=82=D1=81=D1=8F =D0=B3=D1=80=D0=B0=D0=B6=
+=D0=B4=D0=B0=D0=BD=D0=B8=D0=BD=D0=BE=D0=BC =D0=B2=D1=8B=D1=81=D0=BE=D0=BA=
+=D0=BE=D1=80=D0=B8=D1=81=D0=BA=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D0=BE=D0=B9 =
+=D1=81=D1=82=D1=80=D0=B0=D0=BD=D1=8B</strong></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-6.=D0=9F=D0=
+=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5=D0=B4=D0=B5=D0=BF=D0=BE=
+=D0=B7=D0=B8=D1=82=D0=B0"><strong>6. =D0=9F=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=
+=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</=
+strong></h2>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 67.=
+0872%;">
+<colgroup>
+<col style=3D"width: 16.2126%;">
+<col style=3D"width: 83.8225%;">
+</colgroup>
+<tbody>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0=
+);"><strong>=D0=9F=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5 =
+=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</strong></span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>=
+=D0=9E=D1=87=D0=B5=D1=80=D0=B5=D0=B4=D1=8C:</strong></span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">=D0=BE=D1=
+=87=D0=B5=D1=80=D0=B5=D0=B4=D1=8C =D0=93=D0=A2=D0=A1 - deposit-replenishmen=
+t.create.request.queue</span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>=
+=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5</strong></span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">=D0=9F=D0=
+=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B4=D0=B5=D0=BF=D0=
+=BE=D0=B7=D0=B8=D1=82=D0=B0</span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>=
+=D0=A2=D0=B5=D0=BB=D0=BE =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=
+=D1=8F</strong><strong>:</strong></span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">{</span><b=
+r><span style=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span style=3D"co=
+lor: rgb(163,21,21);">"depositId"</span><span style=3D"color: rgb(0,0,0);">=
+: </span><span style=3D"color: rgb(9,134,88);">150568056</span><span style=
+=3D"color: rgb(0,0,0);">,</span><br><span style=3D"color: rgb(0,0,0);">&nbs=
+p; &nbsp; </span><span style=3D"color: rgb(163,21,21);">"branchId"</span><s=
+pan style=3D"color: rgb(0,0,0);">: </span><span style=3D"color: rgb(9,134,8=
+8);">1101</span><span style=3D"color: rgb(0,0,0);">,</span><br><span style=
+=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span style=3D"color: rgb(163,=
+21,21);">"clientCode"</span><span style=3D"color: rgb(0,0,0);">: </span><sp=
+an style=3D"color: rgb(4,81,165);">"008.209654"</span><span style=3D"color:=
+ rgb(0,0,0);">,</span><br><span style=3D"color: rgb(0,0,0);">&nbsp; &nbsp; =
+</span><span style=3D"color: rgb(163,21,21);">"accountNumber"</span><span s=
+tyle=3D"color: rgb(0,0,0);">: </span><span style=3D"color: rgb(4,81,165);">=
+"1250820026504230"</span><span style=3D"color: rgb(0,0,0);">,</span><br><sp=
+an style=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span style=3D"color: =
+rgb(163,21,21);">"depAccount"</span><span style=3D"color: rgb(0,0,0);">: </=
+span><span style=3D"color: rgb(4,81,165);">"008"</span><span style=3D"color=
+: rgb(0,0,0);">,</span><br><span style=3D"color: rgb(0,0,0);">&nbsp; &nbsp;=
+ </span><span style=3D"color: rgb(163,21,21);">"accountCurrency"</span><spa=
+n style=3D"color: rgb(0,0,0);">: </span><span style=3D"color: rgb(4,81,165)=
+;">"KGS"</span><span style=3D"color: rgb(0,0,0);">,</span><br><span style=
+=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span style=3D"color: rgb(163,=
+21,21);">"amount"</span><span style=3D"color: rgb(0,0,0);">: </span><span s=
+tyle=3D"color: rgb(9,134,88);">40</span><span style=3D"color: rgb(0,0,0);">=
+,</span><br><span style=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span s=
+tyle=3D"color: rgb(163,21,21);">"amountCredit"</span><span style=3D"color: =
+rgb(0,0,0);">: </span><span style=3D"color: rgb(9,134,88);">40</span><span =
+style=3D"color: rgb(0,0,0);">,</span><br><span style=3D"color: rgb(0,0,0);"=
+>&nbsp; &nbsp; </span><span style=3D"color: rgb(163,21,21);">"exchangeRate"=
+</span><span style=3D"color: rgb(0,0,0);">: </span><span style=3D"color: rg=
+b(9,134,88);">85.5</span><span style=3D"color: rgb(0,0,0);">,</span><br><sp=
+an style=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span style=3D"color: =
+rgb(163,21,21);">"isBaseCurrency"</span><span style=3D"color: rgb(0,0,0);">=
+: </span><span style=3D"color: rgb(4,81,165);">true</span><span style=3D"co=
+lor: rgb(0,0,0);">,</span><br><span style=3D"color: rgb(0,0,0);">&nbsp; &nb=
+sp; </span><span style=3D"color: rgb(163,21,21);">"system"</span><span styl=
+e=3D"color: rgb(0,0,0);">: </span><span style=3D"color: rgb(4,81,165);">"ma=
+in-system"</span><span style=3D"color: rgb(0,0,0);">,</span><br><span style=
+=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span style=3D"color: rgb(163,=
+21,21);">"requestId"</span><span style=3D"color: rgb(0,0,0);">: </span><spa=
+n style=3D"color: rgb(4,81,165);">"80b6c25b-d7b4-4716-a555-39e817c00247"</s=
+pan><br><span style=3D"color: rgb(0,0,0);">}</span></p></td>
+</tr>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0=
+);"><strong>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BF=D0=BE=
+=D0=BB=D0=B5=D0=B9</strong></span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>De=
+positId</strong></span></p></td>
+<td class=3D"confluenceTd"><pre><span style=3D"color: rgb(0,0,0);">=D0=98=
+=D0=B4=D0=B5=D0=BD=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=82=D0=BE=D1=80 =
+=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</span></pre></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>Br=
+anchId</strong></span></p></td>
+<td class=3D"confluenceTd"><pre><span style=3D"color: rgb(0,0,0);">=D0=98=
+=D0=B4=D0=B5=D0=BD=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=82=D0=BE=D1=80 =
+=D1=84=D0=B8=D0=BB=D0=B8=D0=B0=D0=BB=D0=B0 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=
+=D0=B8=D1=82=D0=B0</span></pre></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>Cl=
+ientCode</strong></span></p></td>
+<td class=3D"confluenceTd"><pre><span style=3D"color: rgb(0,0,0);">=D0=9D=
+=D0=BE=D0=BC=D0=B5=D1=80 =D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D0=B0</span><=
+/pre></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>De=
+pAccount</strong></span></p></td>
+<td class=3D"confluenceTd"><pre><span style=3D"color: rgb(0,0,0);">=D0=A4=
+=D0=B8=D0=BB=D0=B8=D0=B0=D0=BB =D1=81=D1=87=D1=91=D1=82=D0=B0 =D1=81=D0=BF=
+=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D1=8F <span style=3D"color: rgb(0,0,0);">(=
+=D0=BD=D0=B5 =D0=BE=D0=B1=D1=8F=D0=B7=D0=B0=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=
+=D1=8B=D0=B9 =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82)</span></span></pre=
+></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>Ac=
+countNumber</strong></span></p></td>
+<td class=3D"confluenceTd"><pre><span style=3D"color: rgb(0,0,0);">=D0=9D=
+=D0=BE=D0=BC=D0=B5=D1=80 =D1=81=D1=87=D1=91=D1=82=D0=B0 =D1=81=D0=BF=D0=B8=
+=D1=81=D0=B0=D0=BD=D0=B8=D1=8F (=D0=BD=D0=B5 =D0=BE=D0=B1=D1=8F=D0=B7=D0=B0=
+=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D0=B0=D1=82=D1=80=D0=B8=D0=B1=
+=D1=83=D1=82)</span></pre></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>Ac=
+countCurrency</strong></span></p></td>
+<td class=3D"confluenceTd"><pre><span style=3D"color: rgb(0,0,0);">=D0=92=
+=D0=B0=D0=BB=D1=8E=D1=82=D0=B0 =D1=81=D1=87=D1=91=D1=82=D0=B0 =D1=81=D0=BF=
+=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D1=8F</span></pre></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>Am=
+ount</strong></span></p></td>
+<td class=3D"confluenceTd"><pre><span style=3D"color: rgb(0,0,0);">=D0=A1=
+=D1=83=D0=BC=D0=BC=D0=B0 =D1=81=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D1=8F</=
+span></pre></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>Am=
+ounCredit</strong></span></p></td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(0,0,0);">=D0=A1=D1=83=
+=D0=BC=D0=BC=D0=B0 =D0=BF=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=
+=D1=8F</span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>Ex=
+changeRate</strong></span></p></td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(0,0,0);">=D0=9A=D1=83=
+=D1=80=D1=81</span></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>isBaseCurrency</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>=D0=A4=D0=BB=D0=B0=D0=B3 =D0=B1=D0=B0=D0=B7=D0=BE=D0=B2=D0=BE=D0=B3=D0=
+=BE =D0=BA=D1=83=D1=80=D1=81=D0=B0 =D1=82=D1=80=D0=B0=D0=BD=D0=B7=D0=B0=D0=
+=BA=D1=86=D0=B8=D0=B8 (true / false)</p></td>
+</tr>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0=
+);"><strong>FeedBack</strong></span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>=
+=D0=9E=D1=87=D0=B5=D1=80=D0=B5=D0=B4=D1=8C</strong></span></p></td>
+<td class=3D"confluenceTd"><pre><span style=3D"color: rgb(0,0,0);">deposit-=
+replenishment.create.response<span style=3D"color: rgb(0,0,0);">.{system}</=
+span></span></pre></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=A2=D0=B5=D0=BB=D0=BE =D1=83=D1=81=
+=D0=BF=D0=B5=D1=88=D0=BD=D0=BE=D0=B3=D0=BE =D0=BE=D1=82=D0=B2=D0=B5=D1=82=
+=D0=B0</strong><strong>:</strong></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">{</span><b=
+r><span style=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span style=3D"co=
+lor: rgb(163,21,21);">"RequestId"</span><span style=3D"color: rgb(0,0,0);">=
+: </span><span style=3D"color: rgb(4,81,165);">"bc42b4d4-40d7-4a76-b7a3-83c=
+e8f4545a6"</span><span style=3D"color: rgb(0,0,0);">,</span><br><span style=
+=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span style=3D"color: rgb(163,=
+21,21);">"Code"</span><span style=3D"color: rgb(0,0,0);">: </span><span sty=
+le=3D"color: rgb(9,134,88);">0</span><span style=3D"color: rgb(0,0,0);">,</=
+span><br><span style=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span styl=
+e=3D"color: rgb(163,21,21);">"Message"</span><span style=3D"color: rgb(0,0,=
+0);">: </span><span style=3D"color: rgb(4,81,165);">"Deposit replenishment =
+is successfully done"</span><br><span style=3D"color: rgb(0,0,0);">}</span>=
+</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=A2=D0=B5=D0=BB=D0=BE =D0=BD=D0=B5=
+ =D1=83=D1=81=D0=BF=D0=B5=D1=88=D0=BD=D0=BE=D0=B3=D0=BE =D0=BE=D1=82=D0=B2=
+=D0=B5=D1=82=D0=B0</strong></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">{</span><b=
+r><span style=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span style=3D"co=
+lor: rgb(163,21,21);">"RequestId"</span><span style=3D"color: rgb(0,0,0);">=
+:<span style=3D"color: rgb(4,81,165);">"bc42b4d4-40d7-4a76-b7a3-83ce8f4545a=
+6"</span></span><span style=3D"color: rgb(0,0,0);">,</span><br><span style=
+=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span style=3D"color: rgb(163,=
+21,21);">"Code"</span><span style=3D"color: rgb(0,0,0);">: </span><span sty=
+le=3D"color: rgb(9,134,88);">1001</span><span style=3D"color: rgb(0,0,0);">=
+,</span><br><span style=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span s=
+tyle=3D"color: rgb(163,21,21);">"Message"</span><span style=3D"color: rgb(0=
+,0,0);">: </span><span style=3D"color: rgb(4,81,165);">"Deposit not found"<=
+/span><br><span style=3D"color: rgb(0,0,0);">}</span></p><p><span style=3D"=
+color: rgb(0,51,102);">&nbsp;</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 67.=
+8261%;">
+<colgroup>
+<col style=3D"width: 5.87037%;">
+<col style=3D"width: 52.7416%;">
+<col style=3D"width: 41.3192%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A1=D1=82=D0=B0=D1=82=D1=83=D1=81</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A2=D0=B5=D0=BA=D1=81=D1=82</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5</strong></p></t=
+d>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">0</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">Success</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=A3=D1=81=D0=BF=D0=B5=D1=88=D0=
+=BD=D0=BE</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">501</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">Occurred unhandled exception</span=
+></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=92=D0=BD=D1=83=D1=82=D1=80=D0=
+=B5=D0=BD=D0=BD=D1=8F=D1=8F =D0=BE=D1=88=D0=B8=D0=B1=D0=BA=D0=B0</span></p>=
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">400</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<pre class=3D"msg-payload">Incorrect format of request</pre><p><span style=
+=3D"color: rgb(0,51,102);">&nbsp;</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=9D=D0=B5 =D0=BA=D0=BE=D1=80=D0=
+=B5=D0=BA=D1=82=D0=BD=D1=8B=D0=B9 =D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=82 =D0=
+=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D0=B0</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">409</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<pre class=3D"msg-payload">Duplicate request</pre><p><span style=3D"color: =
+rgb(0,51,102);">&nbsp;</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=94=D1=83=D0=B1=D0=BB=D0=B8=D1=
+=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D0=B9 =D0=B7=D0=B0=D0=BF=D1=80=D0=
+=BE=D1=81</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">1001</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<pre><span style=3D"color: rgb(214,157,133);">Deposit not found</span></pre=
+></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=94=D0=B5=D0=BF=D0=BE=D0=B7=D0=
+=B8=D1=82 =D0=BD=D0=B5 =D0=BD=D0=B0=D0=B9=D0=B4=D0=B5=D0=BD</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">1002</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<pre><span style=3D"color: rgb(214,157,133);">Account not found</span></pre=
+></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=A1=D1=87=D1=91=D1=82 =D0=BD=D0=
+=B5 =D0=BD=D0=B0=D0=B9=D0=B4=D0=B5=D0=BD</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">1003</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<pre><span style=3D"color: rgb(214,157,133);">The account doesn't belong to=
+ the client</span></pre></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=A1=D1=87=D1=91=D1=82 =D0=BD=D0=
+=B5 =D0=BF=D1=80=D0=B8=D0=BD=D0=B0=D0=B4=D0=BB=D0=B5=D0=B6=D0=B8=D1=82 =D0=
+=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D1=83</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-7.=D0=97=D0=
+=B0=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=B5=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=
+=D1=82=D0=B0"><strong>7. =D0=97=D0=B0=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=B5 =
+=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</strong></h2>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 67.=
+0872%;">
+<colgroup>
+<col style=3D"width: 15.303%;">
+<col style=3D"width: 74.3054%;">
+<col style=3D"width: 10.3111%;">
+</colgroup>
+<tbody>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd"><p><strong>=D0=97=D0=B0=D0=BA=D1=
+=80=D1=8B=D1=82=D0=B8=D0=B5 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=
+=B0 =D1=87=D0=B5=D1=80=D0=B5=D0=B7 =D0=BE=D1=87=D0=B5=D1=80=D0=B5=D0=B4=D1=
+=8C</strong></p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9E=D1=87=D0=B5=D1=80=D0=B5=D0=B4=
+=D1=8C:</strong></p></td>
+<td class=3D"confluenceTd"><p>=D0=BE=D1=87=D0=B5=D1=80=D0=B5=D0=B4=D1=8C =
+=D0=93=D0=A2=D0=A1 deposit.close.request.queue</p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=
+=D0=B8=D0=B5</strong></p></td>
+<td class=3D"confluenceTd"><p>=D0=97=D0=B0=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=
+=B5 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=A2=D0=B5=D0=BB=D0=BE =D1=81=D0=BE=
+=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F</strong><strong>:</strong></p></=
+td>
+<td class=3D"confluenceTd"><p>&nbsp;{<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "System": "main-system",<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "RequestId": "d8715265-086c-42d4=
+-94b1-6b8bfbb7e21c",<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "Branch": "1096",<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "DepositNumber": "150568755",</p=
+><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "ClientCode": "008.209654"<br=
+>
+ &nbsp;}</p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd"><p><strong>=D0=9E=D0=BF=D0=B8=D1=
+=81=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BF=D0=BE=D0=BB=D0=B5=D0=B9</strong></p></td=
+>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Branch</strong></p></td>
+<td class=3D"confluenceTd"><p>=D0=A4=D0=B8=D0=BB=D0=B8=D0=B0=D0=BB</p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>DepositNumber</strong></p></td>
+<td class=3D"confluenceTd"><p>=D0=9D=D0=BE=D0=BC=D0=B5=D1=80 =D0=B4=D0=B5=
+=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>System</strong></p></td>
+<td class=3D"confluenceTd"><p style=3D"text-align: left;">=D0=9D=D0=B0=D0=
+=B8=D0=BC=D0=B5=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D1=81=D0=B8=D1=
+=81=D1=82=D0=B5=D0=BC=D1=8B.<br>
+ =D0=92 =D0=B7=D0=B0=D0=B2=D0=B8=D1=81=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=B8 =
+=D0=BE=D1=82 =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC=D1=8B =D0=BE=D1=82=D0=B2=
+=D0=B5=D1=82<br>
+ =D0=B1=D1=83=D0=B4=D0=B5=D1=82 =D0=BF=D0=BE=D0=BC=D0=B5=D1=89=D1=91=D0=BD =
+=D0=B2 =D1=81=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=B2=D1=83=
+=D1=8E=D1=89=D1=83=D1=8E =D0=BE=D1=87=D0=B5=D1=80=D0=B5=D0=B4=D1=8C<strong>=
+.</strong></p><p style=3D"text-align: left;">=D0=A1=D0=BF=D1=80=D0=B0=D0=B2=
+=D0=BE=D1=87=D0=BD=D0=B8=D0=BA =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC =D0=B8 =
+=D0=BE=D1=87=D0=B5=D1=80=D0=B5=D0=B4=D0=B5=D0=B9 =D1=83=D0=BA=D0=B0=D0=B7=
+=D0=B0=D0=BD =D0=BD=D0=B8=D0=B6=D0=B5.<br>
+ =D0=92 =D1=81=D0=BB=D1=83=D1=87=D0=B0=D0=B8 =D0=BD=D0=B5=D0=B2=D0=B5=D1=80=
+=D0=BD=D0=BE =D1=83=D0=BA=D0=B0=D0=B7=D0=B0=D0=BD=D0=BD=D0=BE=D0=B9 =D1=81=
+=D0=B8=D1=81=D1=82=D0=B5=D0=BC=D1=8B =D0=BE=D1=82=D0=B2=D0=B5=D1=82 =D0=B1=
+=D1=83=D0=B4=D0=B5=D1=82 =D0=BF=D0=BE=D0=BC=D0=B5=D1=89=D1=91=D1=82 =D0=B2 =
+=D0=BE=D1=87=D0=B5=D1=80=D0=B5=D0=B4=D1=8C&nbsp;<strong>feedback-deposit-cr=
+eate-queue-error.</strong></p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(0,0,0);">Cu=
+stomerId</span></strong></p></td>
+<td class=3D"confluenceTd"><pre><span style=3D"color: rgb(0,0,0);">=D0=9D=
+=D0=BE=D0=BC=D0=B5=D1=80 =D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D0=B0</span><=
+/pre></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd"><p><strong>FeedBack</strong></p></=
+td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=9E=D1=87=D0=B5=D1=80=D0=B5=D0=B4=
+=D1=8C</strong></p></td>
+<td class=3D"confluenceTd"><p>feedback-deposit-close-queue</p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=A2=D0=B5=D0=BB=D0=BE =D1=83=D1=81=
+=D0=BF=D0=B5=D1=88=D0=BD=D0=BE=D0=B3=D0=BE =D0=BE=D1=82=D0=B2=D0=B5=D1=82=
+=D0=B0</strong><strong>:</strong></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,102);"><span s=
+tyle=3D"color: rgb(0,51,102);">{</span><br><span style=3D"color: rgb(0,51,1=
+02);">&nbsp; &nbsp; "Data": {</span><br><span style=3D"color: rgb(0,51,102)=
+;">&nbsp; &nbsp; &nbsp; &nbsp; "<span style=3D"color: rgb(0,51,102);">Reque=
+stId</span>": "4be676fb-1121-45ae-8ef9-ff1f22d4d0bd",</span><br><span style=
+=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; "Branch": "1096",<br=
+>
+ &nbsp; &nbsp; &nbsp; &nbsp; "DepositNumber": "150568267",</span><br><span =
+style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; },</span><br><span style=3D"c=
+olor: rgb(0,51,102);">&nbsp; &nbsp; "Code": 0,</span><br><span style=3D"col=
+or: rgb(0,51,102);">&nbsp; &nbsp; "Message": "Success"</span><br><span styl=
+e=3D"color: rgb(0,51,102);">}</span></span></p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=A2=D0=B5=D0=BB=D0=BE =D0=BD=D0=B5=
+ =D1=83=D1=81=D0=BF=D0=B5=D1=88=D0=BD=D0=BE=D0=B3=D0=BE =D0=BE=D1=82=D0=B2=
+=D0=B5=D1=82=D0=B0</strong></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,51,102);">{</span=
+><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "Data": {</span><b=
+r><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; "Reques=
+tId": "7a41ec30-3d45-4a73-b104-a1c17fa36990"</span><br><span style=3D"color=
+: rgb(0,51,102);">&nbsp; &nbsp; },</span><br><span style=3D"color: rgb(0,51=
+,102);">&nbsp; &nbsp; "Code": 501,</span><br><span style=3D"color: rgb(0,51=
+,102);">&nbsp; &nbsp; "Message": "Error close deposit"</span><br><span styl=
+e=3D"color: rgb(0,51,102);">}</span></p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A1=D1=82=D0=B0=D1=82=D1=83=D1=81</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A2=D0=B5=D0=BA=D1=81=D1=82</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5</strong></p></t=
+d>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">0</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">Success</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=A3=D1=81=D0=BF=D0=B5=D1=88=D0=
+=BD=D0=BE</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">501</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">Ocurred unhandled exception</span>=
+</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=92=D0=BD=D1=83=D1=82=D1=80=D0=
+=B5=D0=BD=D0=BD=D1=8F=D1=8F =D0=BE=D1=88=D0=B8=D0=B1=D0=BA=D0=B0</span></p>=
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">400</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<pre class=3D"msg-payload">Incorrect format of request</pre><p><span style=
+=3D"color: rgb(0,51,102);">&nbsp;</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=9D=D0=B5 =D0=BA=D0=BE=D1=80=D0=
+=B5=D0=BA=D1=82=D0=BD=D1=8B=D0=B9 =D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=82 =D0=
+=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D0=B0</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">409</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<pre class=3D"msg-payload">Duplicate request</pre><p><span style=3D"color: =
+rgb(0,51,102);">&nbsp;</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=94=D1=83=D0=B1=D0=BB=D0=B8=D1=
+=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D0=B9 =D0=B7=D0=B0=D0=BF=D1=80=D0=
+=BE=D1=81</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<h2 id=3D"API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-8.=D0=A7=D0=
+=B0=D1=81=D1=82=D0=B8=D1=87=D0=BD=D0=BE=D0=B5=D1=81=D0=BD=D1=8F=D1=82=D0=B8=
+=D0=B5=D1=81=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0"><strong>8. =
+=D0=A7=D0=B0=D1=81=D1=82=D0=B8=D1=87=D0=BD=D0=BE=D0=B5 =D1=81=D0=BD=D1=8F=
+=D1=82=D0=B8=D0=B5 =D1=81 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0<=
+/strong></h2>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 67.=
+0872%;">
+<colgroup>
+<col style=3D"width: 16.2031%;">
+<col style=3D"width: 83.7982%;">
+</colgroup>
+<tbody>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0=
+);"><strong>=D0=9F=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5 =
+=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</strong></span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>=
+=D0=9E=D1=87=D0=B5=D1=80=D0=B5=D0=B4=D1=8C:</strong></span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">=D0=BE=D1=
+=87=D0=B5=D1=80=D0=B5=D0=B4=D1=8C =D0=93=D0=A2=D0=A1 - <span style=3D"color=
+: rgb(33,33,33);">deposit-partial-withdrawal.create.request</span></span></=
+p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>=
+=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5</strong></span></p></td>
+<td class=3D"confluenceTd"><p>=D0=A7=D0=B0=D1=81=D1=82=D0=B8=D1=87=D0=BD=D0=
+=BE=D0=B5 =D1=81=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D1=81 =D0=B4=D0=B5=D0=BF=D0=
+=BE=D0=B7=D0=B8=D1=82=D0=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>=
+=D0=A2=D0=B5=D0=BB=D0=BE =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=
+=D1=8F</strong><strong>:</strong></span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">{</span><b=
+r><span style=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span style=3D"co=
+lor: rgb(163,21,21);"><span class=3D"inline-comment-marker" data-ref=3D"1a5=
+3c58a-f457-48b6-ab7e-bf6ab85328ba">"depositId"</span></span><span style=3D"=
+color: rgb(0,0,0);"><span class=3D"inline-comment-marker" data-ref=3D"1a53c=
+58a-f457-48b6-ab7e-bf6ab85328ba">: </span></span><span style=3D"color: rgb(=
+9,134,88);"><span class=3D"inline-comment-marker" data-ref=3D"1a53c58a-f457=
+-48b6-ab7e-bf6ab85328ba">150568057</span></span><span style=3D"color: rgb(0=
+,0,0);"><span class=3D"inline-comment-marker" data-ref=3D"1a53c58a-f457-48b=
+6-ab7e-bf6ab85328ba">,</span></span><br><span style=3D"color: rgb(0,0,0);">=
+&nbsp; &nbsp; </span><span style=3D"color: rgb(163,21,21);">"branchId"</spa=
+n><span style=3D"color: rgb(0,0,0);">: </span><span style=3D"color: rgb(9,1=
+34,88);">1101</span><span style=3D"color: rgb(0,0,0);">,</span><br><span st=
+yle=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span style=3D"color: rgb(1=
+63,21,21);">"clientCode"</span><span style=3D"color: rgb(0,0,0);">: </span>=
+<span style=3D"color: rgb(4,81,165);">"008.209654"</span><span style=3D"col=
+or: rgb(0,0,0);">,</span><br><span style=3D"color: rgb(0,0,0);">&nbsp; &nbs=
+p; </span><span style=3D"color: rgb(163,21,21);">"accountNumber"</span><spa=
+n style=3D"color: rgb(0,0,0);">: </span><span style=3D"color: rgb(4,81,165)=
+;">"1250820026504230"</span><span style=3D"color: rgb(0,0,0);">,</span><br>=
+<span style=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span style=3D"colo=
+r: rgb(163,21,21);">"depAccount"</span><span style=3D"color: rgb(0,0,0);">:=
+ </span><span style=3D"color: rgb(4,81,165);">"008"</span><span style=3D"co=
+lor: rgb(0,0,0);">,</span><br><span style=3D"color: rgb(0,0,0);">&nbsp; &nb=
+sp; </span><span style=3D"color: rgb(163,21,21);">"amount"</span><span styl=
+e=3D"color: rgb(0,0,0);">: </span><span style=3D"color: rgb(9,134,88);">110=
+00</span><span style=3D"color: rgb(0,0,0);">,</span><br><span style=3D"colo=
+r: rgb(0,0,0);">&nbsp; &nbsp; </span><span style=3D"color: rgb(163,21,21);"=
+>"system"</span><span style=3D"color: rgb(0,0,0);">: </span><span style=3D"=
+color: rgb(4,81,165);">"main-system"</span><span style=3D"color: rgb(0,0,0)=
+;">,</span><br><span style=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><spa=
+n style=3D"color: rgb(163,21,21);">"requestId"</span><span style=3D"color: =
+rgb(0,0,0);">: </span><span style=3D"color: rgb(4,81,165);">"</span><span s=
+tyle=3D"color: rgb(242,107,58);">{{$guid}}</span><span style=3D"color: rgb(=
+4,81,165);">"</span><br><span style=3D"color: rgb(0,0,0);">}</span></p></td=
+>
+</tr>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0=
+);"><strong>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BF=D0=BE=
+=D0=BB=D0=B5=D0=B9</strong></span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>De=
+positId</strong></span></p></td>
+<td class=3D"confluenceTd"><pre><span style=3D"color: rgb(0,0,0);">=D0=98=
+=D0=B4=D0=B5=D0=BD=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=82=D0=BE=D1=80 =
+=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</span></pre></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>Br=
+anchId</strong></span></p></td>
+<td class=3D"confluenceTd"><pre><span style=3D"color: rgb(0,0,0);">=D0=98=
+=D0=B4=D0=B5=D0=BD=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=82=D0=BE=D1=80 =
+=D1=84=D0=B8=D0=BB=D0=B8=D0=B0=D0=BB=D0=B0 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=
+=D0=B8=D1=82=D0=B0</span></pre></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>Cl=
+ientCode</strong></span></p></td>
+<td class=3D"confluenceTd"><pre><span style=3D"color: rgb(0,0,0);">=D0=9D=
+=D0=BE=D0=BC=D0=B5=D1=80 =D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D0=B0</span><=
+/pre></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>De=
+pAccount</strong></span></p></td>
+<td class=3D"confluenceTd"><pre><span style=3D"color: rgb(0,0,0);">=D0=A4=
+=D0=B8=D0=BB=D0=B8=D0=B0=D0=BB =D1=81=D1=87=D1=91=D1=82=D0=B0 =D0=BF=D0=BE=
+=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F</span></pre></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>Ac=
+countNumber</strong></span></p></td>
+<td class=3D"confluenceTd"><pre><span style=3D"color: rgb(0,0,0);">=D0=9D=
+=D0=BE=D0=BC=D0=B5=D1=80 =D1=81=D1=87=D1=91=D1=82=D0=B0 =D0=BF=D0=BE=D0=BF=
+=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F</span></pre></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>Am=
+ount</strong></span></p></td>
+<td class=3D"confluenceTd"><pre><span style=3D"color: rgb(0,0,0);">=D0=A1=
+=D1=83=D0=BC=D0=BC=D0=B0</span></pre></td>
+</tr>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0=
+);"><strong>FeedBack</strong></span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);"><strong>=
+=D0=9E=D1=87=D0=B5=D1=80=D0=B5=D0=B4=D1=8C</strong></span></p></td>
+<td class=3D"confluenceTd"><pre><span style=3D"color: rgb(0,0,0);"><span st=
+yle=3D"color: rgb(33,33,33);">deposit-partial-withdrawal</span>.create.resp=
+onse.{system}</span></pre></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=A2=D0=B5=D0=BB=D0=BE =D1=83=D1=81=
+=D0=BF=D0=B5=D1=88=D0=BD=D0=BE=D0=B3=D0=BE =D0=BE=D1=82=D0=B2=D0=B5=D1=82=
+=D0=B0</strong><strong>:</strong></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">{</span><b=
+r><span style=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span style=3D"co=
+lor: rgb(163,21,21);">"requestId"</span><span style=3D"color: rgb(0,0,0);">=
+: </span><span style=3D"color: rgb(4,81,165);">"bc42b4d4-40d7-4a76-b7a3-83c=
+e8f4545a6"</span><span style=3D"color: rgb(0,0,0);">,</span><br><span style=
+=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span style=3D"color: rgb(163,=
+21,21);">"code"</span><span style=3D"color: rgb(0,0,0);">: </span><span sty=
+le=3D"color: rgb(9,134,88);">0</span><span style=3D"color: rgb(0,0,0);">,</=
+span><br><span style=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span styl=
+e=3D"color: rgb(163,21,21);">"message"</span><span style=3D"color: rgb(0,0,=
+0);">: </span><span style=3D"color: rgb(4,81,165);">"Deposit partial withdr=
+awal is successfully done"</span><br><span style=3D"color: rgb(0,0,0);">}</=
+span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>=D0=A2=D0=B5=D0=BB=D0=BE =D0=BD=D0=B5=
+ =D1=83=D1=81=D0=BF=D0=B5=D1=88=D0=BD=D0=BE=D0=B3=D0=BE =D0=BE=D1=82=D0=B2=
+=D0=B5=D1=82=D0=B0</strong></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">{</span><b=
+r><span style=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span style=3D"co=
+lor: rgb(163,21,21);">"requestId"</span><span style=3D"color: rgb(0,0,0);">=
+:<span style=3D"color: rgb(4,81,165);">"bc42b4d4-40d7-4a76-b7a3-83ce8f4545a=
+6"</span></span><span style=3D"color: rgb(0,0,0);">,</span><br><span style=
+=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span style=3D"color: rgb(163,=
+21,21);">"code"</span><span style=3D"color: rgb(0,0,0);">: </span><span sty=
+le=3D"color: rgb(9,134,88);">1001</span><span style=3D"color: rgb(0,0,0);">=
+,</span><br><span style=3D"color: rgb(0,0,0);">&nbsp; &nbsp; </span><span s=
+tyle=3D"color: rgb(163,21,21);">"message"</span><span style=3D"color: rgb(0=
+,0,0);">: </span><span style=3D"color: rgb(4,81,165);">"Deposit not found"<=
+/span><br><span style=3D"color: rgb(0,0,0);">}</span></p><p><span style=3D"=
+color: rgb(0,51,102);">&nbsp;</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 67.=
+8261%;">
+<colgroup>
+<col style=3D"width: 5.87037%;">
+<col style=3D"width: 52.7416%;">
+<col style=3D"width: 41.3192%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A1=D1=82=D0=B0=D1=82=D1=83=D1=81</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A2=D0=B5=D0=BA=D1=81=D1=82</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5</strong></p></t=
+d>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">0</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">Success</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=A3=D1=81=D0=BF=D0=B5=D1=88=D0=
+=BD=D0=BE</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">501</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">Occurred unhandled exception</span=
+></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=92=D0=BD=D1=83=D1=82=D1=80=D0=
+=B5=D0=BD=D0=BD=D1=8F=D1=8F =D0=BE=D1=88=D0=B8=D0=B1=D0=BA=D0=B0</span></p>=
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">400</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<pre class=3D"msg-payload"><span style=3D"color: rgb(0,51,102);">Incorrect =
+format of request</span></pre><p><span style=3D"color: rgb(0,51,102);">&nbs=
+p;</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=9D=D0=B5 =D0=BA=D0=BE=D1=80=D0=
+=B5=D0=BA=D1=82=D0=BD=D1=8B=D0=B9 =D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=82 =D0=
+=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D0=B0</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">409</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<pre class=3D"msg-payload"><span style=3D"color: rgb(0,51,102);">Duplicate =
+request</span></pre><p><span style=3D"color: rgb(0,51,102);">&nbsp;</span><=
+/p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=94=D1=83=D0=B1=D0=BB=D0=B8=D1=
+=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D0=B9 =D0=B7=D0=B0=D0=BF=D1=80=D0=
+=BE=D1=81</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">1001</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<pre><span style=3D"color: rgb(0,51,102);">Deposit not found</span></pre></=
+td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=94=D0=B5=D0=BF=D0=BE=D0=B7=D0=
+=B8=D1=82 =D0=BD=D0=B5 =D0=BD=D0=B0=D0=B9=D0=B4=D0=B5=D0=BD</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">1002</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<pre><span style=3D"color: rgb(0,51,102);">Account not found</span></pre></=
+td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=A1=D1=87=D1=91=D1=82 =D0=BD=D0=
+=B5 =D0=BD=D0=B0=D0=B9=D0=B4=D0=B5=D0=BD</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">1003</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<pre><span style=3D"color: rgb(0,51,102);">The account doesn't belong to th=
+e client</span></pre></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=A1=D1=87=D1=91=D1=82 =D0=BD=D0=
+=B5 =D0=BF=D1=80=D0=B8=D0=BD=D0=B0=D0=B4=D0=BB=D0=B5=D0=B6=D0=B8=D1=82 =D0=
+=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D1=83</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">1004</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<pre><span style=3D"color: rgb(0,51,102);">The currency of the account and =
+the currency of the deposit do not match</span></pre></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">=D0=92=D0=B0=D0=BB=D1=8E=D1=82=D0=
+=B0 =D1=81=D1=87=D1=91=D1=82=D0=B0 =D0=B8 =D0=B2=D0=B0=D0=BB=D1=8E=D1=82=D0=
+=B0 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0 =D0=BD=D0=B5 =D1=81=D0=
+=BE=D0=B2=D0=BF=D0=B0=D0=B4=D0=B0=D1=8E=D1=82</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">1005</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(0,51,102);">The <span class=3D"EzKURWReUAB5oZgtQN=
+kl">allowed</span> <span class=3D"EzKURWReUAB5oZgtQNkl">number</span> of <s=
+pan class=3D"EzKURWReUAB5oZgtQNkl">partial</span> <span class=3D"EzKURWReUA=
+B5oZgtQNkl">withdrawals</span> <span class=3D"EzKURWReUAB5oZgtQNkl">in</spa=
+n> the <span class=3D"EzKURWReUAB5oZgtQNkl">period</span> has been <span cl=
+ass=3D"EzKURWReUAB5oZgtQNkl">exceeded</span></span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(23,43,77);">=D0=9F=D1=80=D0=B5=D0=B2=D1=8B=D1=
+=88=D0=B5=D0=BD=D0=BE =D0=B4=D0=BE=D0=BF=D1=83=D1=81=D1=82=D0=B8=D0=BC=D0=
+=BE=D0=B5 =D0=BA=D0=BE=D0=BB=D0=B8=D1=87=D0=B5=D1=81=D1=82=D0=B2=D0=BE =D1=
+=87=D0=B0=D1=81=D1=82=D0=B8=D1=87=D0=BD=D1=8B=D1=85 =D1=81=D0=BD=D1=8F=D1=
+=82=D0=B8=D0=B9 =D0=B2 =D0=BF=D0=B5=D1=80=D0=B8=D0=BE=D0=B4=D0=B5</span></p=
+></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">1006</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(0,51,102);">The <span class=3D"EzKURWReUAB5oZgtQN=
+kl">balance</span> <span class=3D"EzKURWReUAB5oZgtQNkl">after</span> <span =
+class=3D"EzKURWReUAB5oZgtQNkl">withdrawal</span> is <span class=3D"EzKURWRe=
+UAB5oZgtQNkl">less</span> than the <span class=3D"EzKURWReUAB5oZgtQNkl">all=
+owed</span> <span class=3D"EzKURWReUAB5oZgtQNkl">deposit</span> <span class=
+=3D"EzKURWReUAB5oZgtQNkl">limit</span></span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(23,43,77);">=D0=9E=D1=81=D1=82=D0=B0=D1=82=D0=
+=BE=D0=BA =D0=BF=D0=BE=D1=81=D0=BB=D0=B5 =D1=81=D0=BD=D1=8F=D1=82=D0=B8=D1=
+=8F =D0=BC=D0=B5=D0=BD=D1=8C=D1=88=D0=B5 =D0=B4=D0=BE=D0=BF=D1=83=D1=81=D1=
+=82=D0=B8=D0=BC=D0=BE=D0=B3=D0=BE =D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D0=B0 =D0=
+=BF=D0=BE =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=83</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">1007</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(0,51,102);">Deposit is not allowed partial withdr=
+awal</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(23,43,77);">=D0=94=D0=B5=D0=BF=D0=BE=D0=B7=D0=
+=B8=D1=82 =D0=BD=D0=B5 =D0=BF=D0=BE=D0=B4=D0=B4=D0=B5=D1=80=D0=B6=D0=B8=D0=
+=B2=D0=B0=D0=B5=D1=82 =D1=87=D0=B0=D1=81=D1=82=D0=B8=D1=87=D0=BD=D0=BE=D0=
+=B5 =D1=81=D0=BD=D1=8F=D1=82=D0=B8=D0=B5</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-9.=D0=A3=D0=
+=B2=D0=B5=D0=B4=D0=BE=D0=BC=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F=D0=BF=D0=BE=D0=BE=
+=D0=B1=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F=D0=BC=D0=B4=D0=B5=D0=
+=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0"><strong>9. =D0=A3=D0=B2=D0=B5=D0=B4=D0=
+=BE=D0=BC=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D0=BF=D0=BE =D0=BE=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F=D0=BC =D0=B4=D0=B5=D0=BF=D0=BE=D0=
+=B7=D0=B8=D1=82=D0=B0<br></strong></h2>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<tbody>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=9E=D1=87=D0=B5=D1=80=D0=B5=D0=B4=D1=8C:</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>deposit-update-queue</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5</strong></p></t=
+d>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>=D0=A3=D0=B2=D0=B5=D0=B4=D0=BE=D0=BC=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 =D0=
+=BE=D0=B1 =D0=BE=D0=B1=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F=D1=
+=85 =D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D0=B0</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=A2=D0=B5=D0=BB=D0=BE =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=
+=BD=D0=B8=D1=8F</strong><strong>:</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">{</span><br style=3D"text-align: l=
+eft;"><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; "product": "KOPILKA",</span><br style=3D"text-alig=
+n: left;"><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; "<span style=3D"color: rgb(0,51,102);">clientC=
+ode</span>": "008.158228",</span><br style=3D"text-align: left;"><span styl=
+e=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; "contractNum": "24-8-=D0=94/CUM-015678",</span><br style=3D"text-a=
+lign: left;"><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; "title": "=D0=94=D0=B5=D0=BF=D0=BE=D0=B7=D0=
+=B8=D1=82 \"=D0=9E=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD =D0=BA=D0=BE=D0=BF=D0=B8=
+=D0=BB=D0=BA=D0=B0\"",</span><br style=3D"text-align: left;"><span style=3D=
+"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; "amount": 500,</span><br style=3D"text-align: left;"><span style=3D"co=
+lor: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; "percent": "11.5",</span><br style=3D"text-align: left;"><span style=3D"c=
+olor: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; "rewardAmount": 1,</span><br style=3D"text-align: left;"><span style=3D"=
+color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; "payPeriodName": "TERM",</span><br style=3D"text-align: left;"><span st=
+yle=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; "beginDate": "2024-05-08T00:00:00+06:00",</span><br style=3D"tex=
+t-align: left;"><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "endDate": "2025-05-08T00:00:00+06:00",<=
+/span><br style=3D"text-align: left;"><span style=3D"color: rgb(0,51,102);"=
+>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "clientAccount": "=
+",</span><br style=3D"text-align: left;"><span style=3D"color: rgb(0,51,102=
+);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "currency": "US=
+D",</span><br style=3D"text-align: left;"><span style=3D"color: rgb(0,51,10=
+2);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "payPeriod": "=
+S.DP.005",</span><br style=3D"text-align: left;"><span style=3D"color: rgb(=
+0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "status=
+": "ACTUAL",</span><br style=3D"text-align: left;"><span style=3D"color: rg=
+b(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "perc=
+entEffective": "2.005548129",</span><br style=3D"text-align: left;"><span s=
+tyle=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; "percentPenalty": "0",</span><br style=3D"text-align: left;"><s=
+pan style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; "alias": "=D0=A1=D1=82=D1=80=D0=BE=D0=B9=D0=BA=D0=BE=D0=B2=
+ =D0=98=D0=B3=D0=BE=D1=80=D1=8C =D0=92=D0=BB=D0=B0=D0=B4=D0=B8=D0=BC=D0=B8=
+=D1=80=D0=BE=D0=B2=D0=B8=D1=87",</span><br style=3D"text-align: left;"><spa=
+n style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; "bankBranch": 125008,</span><br style=3D"text-align: left;">=
+<span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; "opened": "2024-05-08T00:00:00+06:00",</span><br style=
+=3D"text-align: left;"><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "closed": null,</span><br style=
+=3D"text-align: left;"><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "accBal": 500,</span><br style=3D=
+"text-align: left;"><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "cardFl": 0,</span><br style=3D"text=
+-align: left;"><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "datePrdName": "month",</span><br style=
+=3D"text-align: left;"><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "availableAmount": 500,</span><br=
+ style=3D"text-align: left;"><span style=3D"color: rgb(0,51,102);">&nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "cardNum": "",</span><br st=
+yle=3D"text-align: left;"><span style=3D"color: rgb(0,51,102);">&nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "deposit": "150572658",</span>=
+<br style=3D"text-align: left;"><span style=3D"color: rgb(0,51,102);">&nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "branch": "1101",</span>=
+<br style=3D"text-align: left;"><span style=3D"color: rgb(0,51,102);">&nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "period": "12",</span><b=
+r style=3D"text-align: left;"><span style=3D"color: rgb(0,51,102);">&nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "canCloseOnline": true,</s=
+pan><br style=3D"text-align: left;"><span style=3D"color: rgb(0,51,102);">&=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "noProlongFl": 0</sp=
+an><br style=3D"text-align: left;"><span style=3D"color: rgb(0,51,102);">&n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"API=D0=B4=D0=B5=D0=BF=D0=BE=D0=B7=D0=B8=D1=82=D1=8B-10.=D0=9F=D0=
+=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D0=B5=D0=A4=D0=98=D0=9E=D1=81=D0=BE=
+=D1=82=D1=80=D1=83=D0=B4=D0=BD=D0=B8=D0=BA=D0=B0=D0=B1=D0=B0=D0=BD=D0=BA=D0=
+=B0=D0=BF=D0=BE=D1=82=D0=B0=D0=B1=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE=D0=BC=D1=83=
+=D0=BD=D0=BE=D0=BC=D0=B5=D1=80=D1=83"><strong>10. =D0=9F=D0=BE=D0=BB=D1=83=
+=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=A4=D0=98=D0=9E =D1=81=D0=BE=D1=82=D1=80=
+=D1=83=D0=B4=D0=BD=D0=B8=D0=BA=D0=B0 =D0=B1=D0=B0=D0=BD=D0=BA=D0=B0 =D0=BF=
+=D0=BE =D1=82=D0=B0=D0=B1=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE=D0=BC=D1=83 =D0=BD=
+=D0=BE=D0=BC=D0=B5=D1=80=D1=83</strong></h2>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 665=
+.0px;">
+<colgroup>
+<col style=3D"width: 222.0px;">
+<col style=3D"width: 64.0px;">
+<col style=3D"width: 377.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=90=D0=B4=D1=80=D0=B5=D1=81:</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"2" class=3D"=
+confluenceTd"><p>/api/Employee/GetEmployeeByTabNumber</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=9C=D0=B5=D1=82=D0=BE=D0=B4:</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"2" class=3D"=
+confluenceTd"><p>GET</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5:</strong></p></=
+td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"2" class=3D"=
+confluenceTd"><p>=D0=9F=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=
+=A4=D0=98=D0=9E =D1=81=D0=BE=D1=82=D1=80=D1=83=D0=B4=D0=BD=D0=B8=D0=BA=D0=
+=B0 =D0=B1=D0=B0=D0=BD=D0=BA=D0=B0 =D0=BF=D0=BE =D1=82=D0=B0=D0=B1=D0=B5=D0=
+=BB=D1=8C=D0=BD=D0=BE=D0=BC=D1=83 =D0=BD=D0=BE=D0=BC=D0=B5=D1=80=D1=83</p><=
+/td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"3" class=3D"=
+confluenceTd"><p><strong>=D0=92=D1=85=D0=BE=D0=B4=D1=8F=D1=89=D0=B8=D0=B5 =
+=D0=BF=D0=B0=D1=80=D0=B0=D0=BC=D0=B5=D1=82=D1=80=D1=8B (=D0=BF=D0=B5=D1=80=
+=D0=B5=D0=B4=D0=B0=D0=B5=D1=82=D1=81=D1=8F =D0=B2 =D0=BF=D0=B0=D1=80=D0=B0=
+=D0=BC=D0=B5=D1=82=D1=80 =D0=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D0=B0)</stron=
+g></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">tabNumber</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>string</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>=D0=A2=D0=B0=D0=B1=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D0=BD=D0=BE=D0=
+=BC=D0=B5=D1=80 =D1=81=D0=BE=D1=82=D1=80=D1=83=D0=B4=D0=BD=D0=B8=D0=BA=D0=
+=B0 =D0=B1=D0=B0=D0=BD=D0=BA=D0=B0 (=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=
+=B8=D0=B5 =D0=B1=D0=B5=D0=B7 =D0=BD=D1=83=D0=BB=D0=B5=D0=B9 =D0=B2 =D0=BD=
+=D0=B0=D1=87=D0=B0=D0=BB=D0=B5 =D1=82=D0=B0=D0=B1=D0=B5=D0=BB=D1=8C=D0=BB=
+=D0=BE=D0=B3=D0=BE =D0=BD=D0=BE=D0=BC=D0=B5=D1=80=D0=B0, =D0=BD=D0=B0=D0=BF=
+=D1=80=D0=B8=D0=BC=D0=B5=D1=80, 1664, =D0=B2=D0=BC=D0=B5=D1=81=D1=82=D0=BE =
+001664)</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"3" class=3D"=
+confluenceTd"><strong>=D0=98=D1=81=D1=85=D0=BE=D0=B4=D1=8F=D1=89=D0=B8=D0=
+=B5 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D0=B5</strong></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">responseCode</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+int</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+=D0=9A=D0=BE=D0=B4 =D0=BE=D1=82=D0=B2=D0=B5=D1=82=D0=B0</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">responseMessage</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+string</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+=D0=A1=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BE=D1=82=D0=B2=
+=D0=B5=D1=82=D0=B0 (=D0=A4=D0=98=D0=9E)</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,51,102);">body</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+object</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+=D0=A2=D0=B5=D0=BB=D0=BE =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=
+=D1=8F</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"3" class=3D"=
+confluenceTd"><p><strong>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80=D1=8B</strong=
+></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80 =D0=B7=D0=B0=D0=BF=D1=80=D0=
+=BE=D1=81=D0=B0:</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"2" class=3D"=
+confluenceTd"><p><span style=3D"color: rgb(0,51,102);">/api/Employee/GetEmp=
+loyeeByTabNumber?tabNumber=3D1664</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80 =D0=BE=D1=82=D0=B2=D0=B5=D1=
+=82=D0=B0:</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"2" class=3D"=
+confluenceTd"><p><span style=3D"color: rgb(0,51,102);">{</span><br><span st=
+yle=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "responseCode": 0,</span><br><s=
+pan style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "responseMessage": "=D0=
+=A1=D1=82=D1=80=D0=BE=D0=B9=D0=BA=D0=BE=D0=B2 =D0=98=D0=B3=D0=BE=D1=80=D1=
+=8C =D0=92=D0=BB=D0=B0=D0=B4=D0=B8=D0=BC=D0=B8=D1=80=D0=BE=D0=B2=D0=B8=D1=
+=87",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "body":=
+ null</span><br><span style=3D"color: rgb(0,51,102);">}</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80 =D0=BE=D1=82=D0=B2=D0=B5=D1=
+=82=D0=B0, =D0=BA=D0=BE=D0=B3=D0=B4=D0=B0 =D1=81=D0=BE=D1=82=D1=80=D1=83=D0=
+=B4=D0=BD=D0=B8=D0=BA =D0=BF=D0=BE =D1=83=D0=BA=D0=B0=D0=B7=D0=B0=D0=BD=D0=
+=BD=D0=BE=D0=BC=D1=83 =D1=82=D0=B0=D0=B1=D0=B5=D0=BB=D1=8E =D0=BD=D0=B5 =D0=
+=BD=D0=B0=D0=B9=D0=B4=D0=B5=D0=BD</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"2" class=3D"=
+confluenceTd"><p><span style=3D"color: rgb(0,51,102);">{</span><br><span st=
+yle=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "responseCode": 404,</span><br>=
+<span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "responseMessage": "=D0=
+=A1=D0=BE=D1=82=D1=80=D1=83=D0=B4=D0=BD=D0=B8=D0=BA =D0=BD=D0=B5 =D0=BD=D0=
+=B0=D0=B9=D0=B4=D0=B5=D0=BD",</span><br><span style=3D"color: rgb(0,51,102)=
+;">&nbsp; &nbsp; "body": null</span><br><span style=3D"color: rgb(0,51,102)=
+;">}</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80 =D0=BE=D1=82=D0=B2=D0=B5=D1=
+=82=D0=B0, =D0=BA=D0=BE=D0=B3=D0=B4=D0=B0 =D0=BD=D0=B5 =D1=83=D0=B4=D0=B0=
+=D0=BB=D0=BE=D1=81=D1=8C =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D1=82=D1=8C =
+=D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D0=B5 =D0=BF=D0=BE =D1=81=D0=BE=D1=82=D1=80=
+=D1=83=D0=B4=D0=BD=D0=B8=D0=BA=D1=83</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"2" class=3D"=
+confluenceTd"><p><span style=3D"color: rgb(0,51,102);">{</span><br><span st=
+yle=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "responseCode": 504,</span><br>=
+<span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "responseMessage": "=D0=
+=9D=D0=B5 =D1=83=D0=B4=D0=B0=D0=BB=D0=BE=D1=81=D1=8C =D0=BF=D0=BE=D0=BB=D1=
+=83=D1=87=D0=B8=D1=82=D1=8C =D0=A4=D0=98=D0=9E =D1=81=D0=BE=D1=82=D1=80=D1=
+=83=D0=B4=D0=BD=D0=B8=D0=BA=D0=B0",</span><br><span style=3D"color: rgb(0,5=
+1,102);">&nbsp; &nbsp; "body": null</span><br><span style=3D"color: rgb(0,5=
+1,102);">}</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80 =D0=BE=D1=82=D0=B2=D0=B5=D1=
+=82=D0=B0, =D0=BF=D1=80=D0=B8 =D0=BE=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=BA=D0=
+=B5 =D0=BD=D0=B5=D0=BA=D0=BE=D1=80=D1=80=D0=B5=D0=BA=D1=82=D0=BD=D0=BE=D0=
+=B3=D0=BE =D0=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D0=B0</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"2" class=3D"=
+confluenceTd"><p>{<br>
+ &nbsp; &nbsp; "responseCode": 400,<br>
+ &nbsp; &nbsp; "responseMessage": "The tabNumber field is required",<br>
+ &nbsp; &nbsp; "body": null<br>
+ }</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><strong>=D0=92=D0=BD=D1=83=D1=82=D1=80=D0=B5=D0=BD=D0=BD=D1=8F=D1=8F =D0=
+=BE=D1=88=D0=B8=D0=B1=D0=BA=D0=B0</strong></p></td>
+<td style=3D"text-align: left;vertical-align: top;" colspan=3D"2" class=3D"=
+confluenceTd"><p><span style=3D"color: rgb(0,51,102);">{</span><br><span st=
+yle=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "responseCode": 501,</span><br>=
+<span style=3D"color: rgb(0,51,102);">&nbsp; &nbsp; "responseMessage": "Int=
+ernal Server Error",</span><br><span style=3D"color: rgb(0,51,102);">&nbsp;=
+ &nbsp; "body": null</span><br><span style=3D"color: rgb(0,51,102);">}</spa=
+n></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_337_1408615110.1750677914598--

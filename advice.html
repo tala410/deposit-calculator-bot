@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Совет внутри продукта — макет</title>
+  <style>
+    body {
+      background: #191922;
+      margin: 0;
+      font-family: 'SF Pro Display', 'Roboto', Arial, sans-serif;
+      color: #fff;
+    }
+    .app {
+      max-width: 390px;
+      margin: 0 auto;
+      min-height: 100vh;
+      background: #191922;
+      box-shadow: 0 0 24px #0008;
+      border-radius: 0 0 32px 32px;
+      padding-bottom: 32px;
+      position: relative;
+    }
+    .statusbar {
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 0 16px;
+      font-size: 1.1em;
+      color: #fff8;
+      letter-spacing: 0.1em;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 16px 0 8px;
+      margin-top: 2px;
+    }
+    .header .back {
+      font-size: 1.5em;
+      color: #fff;
+      cursor: pointer;
+      margin-right: 8px;
+    }
+    .header .title {
+      font-size: 1.15em;
+      font-weight: 600;
+      flex: 1;
+      text-align: left;
+    }
+    .header .edit {
+      font-size: 1.2em;
+      color: #fff8;
+      cursor: pointer;
+      margin-left: 8px;
+    }
+    .main-info {
+      padding: 0 0 0 0;
+      margin-top: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .rate {
+      color: #fff8;
+      font-size: 1em;
+      margin-bottom: 2px;
+    }
+    .amount {
+      font-size: 2.2em;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      margin-bottom: 2px;
+    }
+    .product-name {
+      color: #fff8;
+      font-size: 1em;
+      margin-bottom: 18px;
+    }
+    .actions {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      margin-bottom: 18px;
+    }
+    .action-btn {
+      background: #23232b;
+      border-radius: 16px;
+      width: 56px;
+      height: 56px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 1.7em;
+      border: none;
+      margin-bottom: 4px;
+      cursor: pointer;
+    }
+    .action-label {
+      color: #fff;
+      font-size: 0.95em;
+      margin-top: 2px;
+      text-align: center;
+    }
+    /* Свайп карточек советов */
+    .advice-swiper {
+      margin: 0 0 18px 0;
+      position: relative;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scroll-snap-type: x mandatory;
+      display: flex;
+      gap: 12px;
+      padding: 0 0 8px 0;
+    }
+    .advice-card {
+      background: #23232b;
+      border-radius: 18px;
+      min-width: 85%;
+      max-width: 85%;
+      flex: 0 0 85%;
+      box-shadow: 0 2px 8px #0002;
+      padding: 18px 18px 14px 18px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      scroll-snap-align: center;
+      position: relative;
+    }
+    .advice-card .icon {
+      font-size: 1.3em;
+      margin-bottom: 6px;
+      color: #ff2d87;
+    }
+    .advice-card .tip {
+      font-size: 1.08em;
+      font-weight: 500;
+      margin-bottom: 8px;
+      color: #fff;
+    }
+    .advice-card .cta {
+      background: #ff2d87;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 6px 18px;
+      font-size: 1em;
+      font-weight: 500;
+      cursor: pointer;
+      margin-top: 8px;
+      transition: background 0.2s;
+    }
+    .advice-card .cta:hover {
+      background: #ff4fa0;
+    }
+    .advice-indicators {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 7px;
+      margin-bottom: 8px;
+      margin-top: -10px;
+    }
+    .advice-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #fff3;
+      transition: background 0.2s, width 0.2s;
+    }
+    .advice-dot.active {
+      background: #ff2d87;
+      width: 18px;
+      border-radius: 6px;
+    }
+    /* Tabs */
+    .tabs {
+      display: flex;
+      margin: 0 0 12px 0;
+      padding: 0 16px;
+      gap: 8px;
+    }
+    .tab {
+      flex: 1;
+      background: #23232b;
+      color: #fff8;
+      border-radius: 12px 12px 0 0;
+      padding: 10px 0;
+      text-align: center;
+      font-size: 1.1em;
+      font-weight: 500;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      transition: background 0.2s, color 0.2s;
+    }
+    .tab.active {
+      background: #ff2d87;
+      color: #fff;
+    }
+    /* Accrued interest */
+    .interest-box {
+      background: #23232b;
+      border-radius: 14px;
+      margin: 0 16px 18px 16px;
+      padding: 16px 0;
+      text-align: center;
+      font-size: 1.1em;
+      color: #fff;
+    }
+    .interest-box .interest {
+      color: #ff2d87;
+      font-size: 1.3em;
+      font-weight: 600;
+      margin-top: 4px;
+    }
+    /* History */
+    .section-title {
+      font-size: 1.1em;
+      font-weight: 600;
+      margin: 18px 0 8px 16px;
+    }
+    .history-list {
+      margin: 0 0 0 0;
+      padding: 0 0 0 0;
+    }
+    .history-item {
+      display: flex;
+      align-items: center;
+      background: #23232b;
+      border-radius: 14px;
+      margin: 0 16px 12px 16px;
+      padding: 12px 12px 12px 12px;
+      color: #fff;
+      font-size: 1em;
+      position: relative;
+    }
+    .history-item .icon {
+      width: 36px;
+      height: 36px;
+      background: #ffb300;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #23232b;
+      font-weight: 700;
+      font-size: 1.1em;
+      margin-right: 10px;
+    }
+    .history-item .desc {
+      flex: 1;
+      color: #fff;
+      font-size: 1em;
+      line-height: 1.2;
+    }
+    .history-item .amount {
+      color: #7fff7f;
+      font-weight: 600;
+      font-size: 1.1em;
+      margin-left: 8px;
+    }
+    .history-item .time {
+      position: absolute;
+      right: 12px;
+      bottom: 8px;
+      color: #fff8;
+      font-size: 0.9em;
+    }
+    .history-date {
+      color: #fff8;
+      font-size: 0.98em;
+      margin: 10px 0 2px 24px;
+    }
+    .all-ops {
+      color: #3a8cff;
+      font-size: 1em;
+      float: right;
+      margin-right: 18px;
+      margin-top: -24px;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    @media (max-width: 500px) {
+      .app { max-width: 100vw; border-radius: 0; }
+      .main-info { padding: 0; }
+      .advice-swiper, .advice-card, .interest-box, .history-item { margin-left: 4px; margin-right: 4px; }
+      .tabs { padding: 0 4px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <div class="statusbar">22:51 <span style="margin-left:12px;">🔇</span></div>
+    <div class="header">
+      <span class="back">&#8592;</span>
+      <span class="title">Копилка-плюс</span>
+      <span class="edit">&#9998;</span>
+    </div>
+    <div class="main-info">
+      <div class="rate">Ставка 6%</div>
+      <div class="amount">1 155,00 <span style="font-size:0.7em; text-decoration:underline;">с</span></div>
+      <div class="product-name">Копилка-плюс</div>
+      <div class="actions">
+        <div style="display:flex;flex-direction:column;align-items:center;">
+          <button class="action-btn">+</button>
+          <div class="action-label">Пополнить</div>
+        </div>
+        <div style="display:flex;flex-direction:column;align-items:center;">
+          <button class="action-btn">&#8942;</button>
+          <div class="action-label">Действия</div>
+        </div>
+      </div>
+    </div>
+    <!-- Свайп карточек советов -->
+    <div class="advice-swiper" id="advice-swiper">
+      <div class="advice-card">
+        <div class="icon">🧠 Совет</div>
+        <div class="tip">Пополняй в первой половине месяца — так заработаешь больше</div>
+        <button class="cta">Подробнее</button>
+      </div>
+      <div class="advice-card">
+        <div class="icon">🧠 Совет</div>
+        <div class="tip">Хочешь накопить быстрее? Включи автопополнение</div>
+        <button class="cta">Подробнее</button>
+      </div>
+      <div class="advice-card">
+        <div class="icon">🧠 Совет</div>
+        <div class="tip">Откладывай даже 100 сом — важна регулярность, а не сумма</div>
+        <button class="cta">Подробнее</button>
+      </div>
+      <div class="advice-card">
+        <div class="icon">🧠 Совет</div>
+        <div class="tip">Не снимал 3 месяца? Скоро будет бонус к ставке</div>
+        <button class="cta">Подробнее</button>
+      </div>
+      <div class="advice-card">
+        <div class="icon">🧠 Совет</div>
+        <div class="tip">Поставь цель — так копить станет проще и интереснее</div>
+        <button class="cta">Подробнее</button>
+      </div>
+      <div class="advice-card">
+        <div class="icon">🧠 Совет</div>
+        <div class="tip">Чем больше остаток — тем больше твой доход</div>
+        <button class="cta">Подробнее</button>
+      </div>
+      <div class="advice-card">
+        <div class="icon">🧠 Совет</div>
+        <div class="tip">Пополняй вклад сразу после зарплаты — так не потратишь лишнего</div>
+        <button class="cta">Подробнее</button>
+      </div>
+      <div class="advice-card">
+        <div class="icon">🧠 Совет</div>
+        <div class="tip">Проценты начисляются каждый месяц — не упусти свою выгоду</div>
+        <button class="cta">Подробнее</button>
+      </div>
+    </div>
+    <div class="advice-indicators" id="advice-indicators"></div>
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab active">Главная</button>
+      <button class="tab">Детали</button>
+    </div>
+    <!-- Accrued interest -->
+    <div class="interest-box">
+      Накопленные проценты<br>
+      <span class="interest">3,44 <span style="font-size:0.8em; text-decoration:underline;">с</span></span>
+    </div>
+    <!-- История -->
+    <div class="section-title">История <span class="all-ops">Все операции</span></div>
+    <div class="history-list">
+      <div class="history-date">Сегодня</div>
+      <div class="history-item">
+        <div class="icon">KGS</div>
+        <div class="desc">Прием вклада по депозитному договору...</div>
+        <div class="amount">+100,00 <span style="font-size:0.8em; text-decoration:underline;">с</span></div>
+        <div class="time">22:24</div>
+      </div>
+      <div class="history-date">20 июня</div>
+      <div class="history-item">
+        <div class="icon">KGS</div>
+        <div class="desc">Прием вклада по депозитному договору...</div>
+        <div class="amount">+5,00 <span style="font-size:0.8em; text-decoration:underline;">с</span></div>
+        <div class="time">10:04</div>
+      </div>
+      <div class="history-date">12 июня</div>
+      <div class="history-item">
+        <div class="icon">KGS</div>
+        <div class="desc">Прием вклада по депозитному договору...</div>
+        <div class="amount">+100,00 <span style="font-size:0.8em; text-decoration:underline;">с</span></div>
+        <div class="time">13:19</div>
+      </div>
+    </div>
+  </div>
+  <script>
+    // Индикаторы свайпа советов
+    const swiper = document.getElementById('advice-swiper');
+    const indicators = document.getElementById('advice-indicators');
+    const cards = swiper.querySelectorAll('.advice-card');
+    let active = 0;
+    function updateIndicators(idx) {
+      indicators.innerHTML = '';
+      for (let i = 0; i < cards.length; i++) {
+        const dot = document.createElement('div');
+        dot.className = 'advice-dot' + (i === idx ? ' active' : '');
+        indicators.appendChild(dot);
+      }
+    }
+    // Обновление индикаторов при скролле
+    function getActiveCardIdx() {
+      let minDiff = Infinity, idx = 0;
+      for (let i = 0; i < cards.length; i++) {
+        const rect = cards[i].getBoundingClientRect();
+        const center = rect.left + rect.width / 2;
+        const parent = swiper.getBoundingClientRect();
+        const diff = Math.abs(center - (parent.left + parent.width / 2));
+        if (diff < minDiff) { minDiff = diff; idx = i; }
+      }
+      return idx;
+    }
+    swiper.addEventListener('scroll', () => {
+      const idx = getActiveCardIdx();
+      if (active !== idx) {
+        active = idx;
+        updateIndicators(active);
+      }
+    });
+    // Инициализация
+    updateIndicators(active);
+    // Для плавного старта (если не первый)
+    setTimeout(()=>{ swiper.scrollLeft = 0; }, 100);
+  </script>
+</body>
+</html> 
