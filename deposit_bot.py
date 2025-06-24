@@ -287,8 +287,6 @@ def parse_natural_language(text):
         term = 12
     elif any(word in text for word in ['24', 'два года', 'двухлетний']):
         term = 24
-    elif any(word in text for word in ['36', 'три года', 'трехлетний']):
-        term = 36
     
     # Поиск капитализации
     capitalization = any(word in text for word in ['капитализация', 'капитализировать', 'с капитализацией'])
@@ -333,15 +331,16 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Обработчик текстовых сообщений"""
-    text = update.message.text
+    text = update.message.text.lower()
     
-    # Сначала проверяем конкретные запросы
-    if any(word in text.lower() for word in ['ставки', 'проценты', 'условия', 'тарифы']):
-        await update.message.reply_text(FAQ['какие есть валюты'], parse_mode='Markdown')
+    # Сначала проверяем конкретные вопросы о расчете
+    if any(phrase in text for phrase in ['как рассчитываются', 'как считается', 'формула расчета']):
+        await update.message.reply_text(FAQ['как рассчитываются проценты'], parse_mode='Markdown')
         return
         
-    elif any(word in text.lower() for word in ['как', 'расчет', 'формула', 'рассчитываются']):
-        await update.message.reply_text(FAQ['как рассчитываются проценты'], parse_mode='Markdown')
+    # Потом проверяем вопросы о ставках (но не о расчете)
+    elif any(word in text for word in ['ставки', 'условия', 'тарифы']) and 'как' not in text:
+        await update.message.reply_text(FAQ['какие есть валюты'], parse_mode='Markdown')
         return
     
     # Парсим естественный язык
@@ -388,7 +387,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         
     # Проверяем FAQ в последнюю очередь
     for question, answer in FAQ.items():
-        if any(word in text.lower() for word in question.split()):
+        if any(word in text for word in question.split()):
             await update.message.reply_text(answer, parse_mode='Markdown')
             return
         
