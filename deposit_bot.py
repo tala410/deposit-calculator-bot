@@ -343,10 +343,6 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Сначала парсим естественный язык для расчета
     parsed = parse_natural_language(text)
     
-    # Отладочная информация
-    print(f"DEBUG: Текст: '{text}'")
-    print(f"DEBUG: Парсинг: {parsed}")
-    
     if parsed['amount'] and parsed['currency'] and parsed['term']:
         # Есть все данные для расчета
         start_date = date.today()
@@ -377,13 +373,25 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         month_names = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", 
                       "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"]
         
-        for key, interest in sorted(result['monthly_interests'].items()):
+        # Показываем детализацию с начала депозита
+        start_month = start_date.month
+        start_year = start_date.year
+        
+        for i in range(parsed['term']):
+            current_month = start_month + i
+            current_year = start_year
+            
+            # Корректируем год если месяц больше 12
+            while current_month > 12:
+                current_month -= 12
+                current_year += 1
+            
+            month_key = f"{current_year}-{current_month:02d}"
+            interest = result['monthly_interests'].get(month_key, 0)
+            
             if interest > 0:
-                year, month = key.split('-')
-                month_num = int(month)
-                if 1 <= month_num <= 12:
-                    month_name = month_names[month_num - 1]  # Индексы начинаются с 0
-                    response += f"• {month_name} {year}: {format_number(interest)} {currency_symbol(parsed['currency'])}\n"
+                month_name = month_names[current_month - 1]  # Индексы начинаются с 0
+                response += f"• {month_name} {current_year}: {format_number(interest)} {currency_symbol(parsed['currency'])}\n"
         
         await update.message.reply_text(response, parse_mode='Markdown')
         return
