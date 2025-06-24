@@ -360,6 +360,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 **Параметры:**
 • Сумма: {format_number(parsed['amount'])} {currency_symbol(parsed['currency'])}
 • Срок: {parsed['term']} месяцев
+• Дата начала: {start_date.strftime('%d.%m.%Y')}
 • Ставка: {result['rate']}% годовых
 • Капитализация: {'Да' if parsed['capitalization'] else 'Нет'}
 
@@ -377,6 +378,8 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         start_month = start_date.month
         start_year = start_date.year
         
+        response += f"*Расчет начинается с {start_date.strftime('%d.%m.%Y')}*\n\n"
+        
         for i in range(parsed['term']):
             current_month = start_month + i
             current_year = start_year
@@ -389,9 +392,8 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             month_key = f"{current_year}-{current_month:02d}"
             interest = result['monthly_interests'].get(month_key, 0)
             
-            if interest > 0:
-                month_name = month_names[current_month - 1]  # Индексы начинаются с 0
-                response += f"• {month_name} {current_year}: {format_number(interest)} {currency_symbol(parsed['currency'])}\n"
+            month_name = month_names[current_month - 1]  # Индексы начинаются с 0
+            response += f"• {month_name} {current_year}: {format_number(interest)} {currency_symbol(parsed['currency'])}\n"
         
         await update.message.reply_text(response, parse_mode='Markdown')
         return
