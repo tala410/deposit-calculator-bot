@@ -340,6 +340,12 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             capitalization=parsed['capitalization']
         )
         
+        # Исключаем проценты за первый месяц из выплат
+        first_month_key = f"{start_date.year}-{start_date.month:02d}"
+        first_month_interest = result['monthly_interests'].get(first_month_key, 0)
+        total_interest_payable = result['total_interest'] - first_month_interest
+        total_amount_payable = parsed['amount'] + total_interest_payable
+        
         response = f"""
 💰 **Расчет депозита**
 
@@ -351,8 +357,8 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 • Капитализация: {'Да' if parsed['capitalization'] else 'Нет'}
 
 **Результат:**
-• Проценты: {format_number(result['total_interest'])} {currency_symbol(parsed['currency'])}
-• Итого: {format_number(result['total_amount'])} {currency_symbol(parsed['currency'])}
+• Проценты к выплате: {format_number(total_interest_payable)} {currency_symbol(parsed['currency'])}
+• Итого к получению: {format_number(total_amount_payable)} {currency_symbol(parsed['currency'])}
 
 **Детализация по месяцам:**
 """
@@ -364,7 +370,8 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         start_month = start_date.month
         start_year = start_date.year
         
-        response += f"*Расчет начинается с {start_date.strftime('%d.%m.%Y')}*\n\n"
+        response += f"*Расчет начинается с {start_date.strftime('%d.%m.%Y')}*\n"
+        response += f"*Первая выплата: {(start_date.replace(day=start_date.day) + timedelta(days=30)).strftime('%d.%m.%Y')}*\n\n"
         
         for i in range(parsed['term']):
             current_month = start_month + i
@@ -379,7 +386,12 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             interest = result['monthly_interests'].get(month_key, 0)
             
             month_name = month_names[current_month - 1]  # Индексы начинаются с 0
-            response += f"• {month_name} {current_year}: {format_number(interest)} {currency_symbol(parsed['currency'])}\n"
+            
+            # Первый месяц - проценты накапливаются, но не выплачиваются
+            if i == 0:
+                response += f"• {month_name} {current_year}: 0,00 {currency_symbol(parsed['currency'])} (накопление)\n"
+            else:
+                response += f"• {month_name} {current_year}: {format_number(interest)} {currency_symbol(parsed['currency'])}\n"
         
         await update.message.reply_text(response, parse_mode='Markdown')
         return
