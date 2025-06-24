@@ -207,40 +207,26 @@ def calculate_deposit(currency, term, start_date, initial_amount, deposits=None,
             interest_bearing_balance += all_deposits[deposit_index]['amount']
             deposit_index += 1
         
-        # Расчет дневных процентов
+        # Расчет дневных процентов (начисляются со следующего дня после открытия)
         daily_interest = 0
-        if not is_same_day(current_date, start_date):
+        if current_date > start_date:  # Проценты начисляются со следующего дня
             daily_interest = (interest_bearing_balance * rate) / (360 * 100)
         
-        # 31-е число - проценты не начисляются
-        effective_interest = 0 if current_date.day == 31 else daily_interest
+        total_interest += daily_interest
+        accumulated_interest += daily_interest
         
-        total_interest += effective_interest
-        accumulated_interest += effective_interest
-        
-        # Учет по месяцам
-        month_key = f"{current_date.year}-{current_date.month}"
+        # Учет по месяцам с правильным ключом
+        month_key = f"{current_date.year}-{current_date.month:02d}"
         if month_key not in monthly_interests:
             monthly_interests[month_key] = 0
-        monthly_interests[month_key] += effective_interest
-        
-        # Февраль - всегда 30 дней
-        if current_date.month == 2:
-            days_in_feb = 29 if current_date.year % 4 == 0 and (current_date.year % 100 != 0 or current_date.year % 400 == 0) else 28
-            if current_date.day == days_in_feb:
-                extra_days = 30 - days_in_feb
-                if extra_days > 0:
-                    extra_interest = extra_days * ((interest_bearing_balance * rate) / (360 * 100))
-                    total_interest += extra_interest
-                    accumulated_interest += extra_interest
-                    monthly_interests[month_key] += extra_interest
+        monthly_interests[month_key] += daily_interest
         
         # Капитализация
         if capitalization:
             last_day_of_month = (current_date.replace(day=1) + timedelta(days=32)).replace(day=1) - timedelta(days=1)
             is_capitalization_day = (current_date.day == open_day) or (open_day > last_day_of_month.day and current_date.day == last_day_of_month.day)
             
-            if is_capitalization_day and not is_same_day(current_date, start_date):
+            if is_capitalization_day and current_date > start_date:
                 interest_bearing_balance += accumulated_interest
                 accumulated_interest = 0
         
