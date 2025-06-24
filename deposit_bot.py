@@ -268,6 +268,10 @@ def parse_natural_language(text):
     elif any(word in text for word in ['евро', 'eur', '€']):
         currency = 'EUR'
     
+    # Если валюта не указана, используем сом по умолчанию
+    if currency is None:
+        currency = 'KGS'
+    
     # Поиск суммы
     amount_match = re.search(r'(\d+(?:[.,]\d+)?)\s*(?:тысяч|тыс|k|млн|миллион|сома?|доллара?|евро?)?', text)
     amount = None
@@ -339,6 +343,10 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Сначала парсим естественный язык для расчета
     parsed = parse_natural_language(text)
     
+    # Отладочная информация
+    print(f"DEBUG: Текст: '{text}'")
+    print(f"DEBUG: Парсинг: {parsed}")
+    
     if parsed['amount'] and parsed['currency'] and parsed['term']:
         # Есть все данные для расчета
         start_date = date.today()
@@ -372,8 +380,10 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         for key, interest in sorted(result['monthly_interests'].items()):
             if interest > 0:
                 year, month = key.split('-')
-                month_name = month_names[int(month)]
-                response += f"• {month_name} {year}: {format_number(interest)} {currency_symbol(parsed['currency'])}\n"
+                month_num = int(month)
+                if 1 <= month_num <= 12:
+                    month_name = month_names[month_num - 1]  # Индексы начинаются с 0
+                    response += f"• {month_name} {year}: {format_number(interest)} {currency_symbol(parsed['currency'])}\n"
         
         await update.message.reply_text(response, parse_mode='Markdown')
         return
